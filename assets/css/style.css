@@ -116,3 +116,7 @@ body.incorrect {
   --bg: var(--bg-incorrect);
   color: hsl(var(--bg), 100%, 50%);
 }
+
+.hide {
+  display: none !important;
+}
