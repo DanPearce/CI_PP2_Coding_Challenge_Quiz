@@ -36,3 +36,12 @@ body.incorrect {
   margin: 0 5%;
   color: #e8e8e8;
 }
+
+.quiz-container {
+  width: 750px;
+  max-width: 80%;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 15px 5px;
+}
