@@ -84,3 +84,11 @@ body.incorrect {
   font-size: 1.2rem;
   outline: none;
 }
+
+.answer-btn.correct {
+  --bg: var(--bg-correct);
+}
+
+.answer-btn.incorrect {
+  --bg: var(--bg-incorrect);
+}
