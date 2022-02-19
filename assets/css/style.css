@@ -129,9 +129,15 @@ body.incorrect {
   width: 100%;
   height: auto;
   padding-top: 10px;
+  color: #e8e8e8;
 }
 
 a{
   text-decoration: none;
   color: #e8e8e8;
+}
+
+a:hover{
+  color: #1a1a1a;
+  background-color: #e8e8e8;
 }
