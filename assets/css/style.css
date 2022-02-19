@@ -100,3 +100,9 @@ body.incorrect {
   align-items: center;
   margin: 10px 0;
 }
+
+.next-btn, .restart-btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
