@@ -59,6 +59,6 @@ body.incorrect {
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  gap: 5px;
-  margin: 10px 0;
+  gap: 15px;
+  margin: 15px 0;
 }
