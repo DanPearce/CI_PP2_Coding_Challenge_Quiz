@@ -2,3 +2,9 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
 }
+
+:root {
+  --bg-normal: 175;
+  --bg-incorrect: 360;
+  --bg-correct: 150;
+}
