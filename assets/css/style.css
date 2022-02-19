@@ -92,3 +92,11 @@ body.incorrect {
 .answer-btn.incorrect {
   --bg: var(--bg-incorrect);
 }
+
+.controls {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
