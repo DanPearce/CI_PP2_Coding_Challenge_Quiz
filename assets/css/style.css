@@ -38,7 +38,7 @@ body.incorrect {
 }
 
 .quiz-container {
-  margin-top: 100px;
+  margin-top: 200px;
   width: 750px;
   max-width: 80%;
   background-color: #e8e8e8;
@@ -105,4 +105,14 @@ body.incorrect {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 10px 20px;
+}
+
+#correct-score {
+  --bg: var(--bg-correct);
+  color: hsl(var(--bg), 100%, 30%);
+}
+
+#incorrect-score {
+  --bg: var(--bg-incorrect);
+  color: hsl(var(--bg), 100%, 50%);
 }
