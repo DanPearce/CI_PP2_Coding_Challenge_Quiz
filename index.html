@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Stylesheet-->
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Coder's Coding Challenge!</title>
 </head>
 <body>
+  <!--Header Area-->
   <div class="header">
     <h1>Welcome to the Coder's Coding Challenge!</h1>
     <h2>Are you ready to test your skills in HTML, CSS and JavaScript? This fun quiz will test your knowledge in three difficulties! Can you get 10/10 in each of them?</h2>
   </div>
+  <!--Quiz Outer Container-->
   <div class="quiz-container">
+    <!--Quesiton Container Area-->
     <div id="question-container" class="hide">
       <div id="question">Question Here</div>
+      <!--Answer Buttons-->
       <div id="answer-btns" class="btn-grid">
         <button class="answer-btn btn">Answer Button 1</button>
         <button class="answer-btn btn">Answer Button 2</button>
@@ -21,7 +26,9 @@
         <button class="answer-btn btn">Answer Button 4</button>
       </div>
     </div>
+    <!--Difficulty Area-->
     <h3 id="difficulty" class="hide">Choose difficulty:</h3>
+    <!--Control Buttons-->
     <div class="controls">
       <button id="easy-btn" class="btn hide">Easy Mode</button>
       <button id="moderate-btn" class="btn hide">Moderate Mode</button>
@@ -29,6 +36,7 @@
       <button id="next-btn" class="next-btn btn hide">Next Question</button>
       <button id="restart-btn" class="restart-btn btn hide">Restart Quiz</button>
     </div>
+    <!--Score Area-->
     <div>Correct: <span id="correct-score">0</span></div>
     <div>Incorrect: <span id="incorrect-score">0</span></div>
   </div>
