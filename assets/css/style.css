@@ -21,6 +21,14 @@ body {
   background-color: hsl(var(--bg), 100%, 30%);
 }
 
+body.correct {
+  --bg: var(--bg-correct);
+}
+
+body.incorrect {
+  --bg: var(--bg-incorrect);
+}
+
 .header {
   position: absolute;
   top: 5%;
