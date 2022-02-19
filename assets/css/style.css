@@ -121,7 +121,7 @@ body.incorrect {
   display: none !important;
 }
 
-#footer{
+#footer {
   text-align: center;
   bottom: 0;
   position: fixed;
@@ -132,12 +132,17 @@ body.incorrect {
   color: #e8e8e8;
 }
 
-a{
+a {
   text-decoration: none;
   color: #e8e8e8;
 }
 
-a:hover{
+a:hover {
   color: #1a1a1a;
   background-color: #e8e8e8;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
 }
