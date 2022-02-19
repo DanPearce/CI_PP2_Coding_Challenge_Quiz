@@ -8,3 +8,15 @@
   --bg-incorrect: 360;
   --bg-correct: 150;
 }
+
+body {
+  --bg: var(--bg-normal);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(var(--bg), 100%, 30%);
+}
