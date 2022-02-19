@@ -65,10 +65,22 @@ body.incorrect {
 
 .btn {
   --bg: var(--bg-normal);
-  background-color: hsl(var(--bg), 100%, 30%);
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 10px 10px;
+  background-color: hsl(var(--bg), 100%, 15%);
+  border: 1px solid hsl(var(--bg), 100%, 20%);
+  border-radius: 5px;
+  padding: 10px 15px;
   color: #e8e8e8;
   font-size: 1.2rem;
+  outline: none;
+}
+
+.answer-btn {
+  --bg: var(--bg-normal);
+  background-color: hsl(var(--bg), 100%, 15%);
+  border: 1px solid hsl(var(--bg), 100%, 20%);
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #e8e8e8;
+  font-size: 1.2rem;
+  outline: none;
 }
