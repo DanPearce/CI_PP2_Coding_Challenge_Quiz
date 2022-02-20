@@ -3,6 +3,7 @@ const easyButton = document.getElementById('easy-btn');
 const moderateButton = document.getElementById('moderate-btn');
 const hardButton = document.getElementById('hard-btn');
 const chooseDifficulty = document.getElementById('difficulty');
+const getQuestion = document.getElementById('question');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
