@@ -97,12 +97,12 @@ const questionsEasy = [
 //Moderate Questions
 const questionsModerate = [
   {
-    question: 'What does HTML stand for?',
+    question: 'Which of the following is true about the "video" element in HTML5?',
     answers: [
-      { text: 'Hypertext Markup Language', correct: true },
-      { text: 'Hyperlink Markup Language', correct: false },
-      { text: 'Hypertool Markup Language', correct: false },
-      { text: 'Hypervalue Markup Language', correct: false }
+      { text: 'HTML5 supports the tag which is used to embed a video file in an HTML or XHTML document.', correct: false },
+      { text: 'The current HTML5 draft specification does not specify which video formats browsers should support in the video tag.', correct: false },
+      { text: 'Ogg files with Theodora video codec and Vorbis audio codec are supported.', correct: false },
+      { text: 'All of the above.', correct: false }
     ]
   },
   {
