@@ -115,12 +115,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'In HTML, which attribute is used to specify that an input field must be filled out?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'required', correct: true },
+      { text: 'formvalidate', correct: false },
+      { text: 'validate', correct: false },
+      { text: 'placeholder', correct: false }
     ]
   },
   {
