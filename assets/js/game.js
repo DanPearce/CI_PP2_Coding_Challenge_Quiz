@@ -9,6 +9,10 @@ easyButton.addEventListener('click', startGameEasy);
 moderateButton.addEventListener('click', startGameModerate);
 hardButton.addEventListener('click', startGameHard);
 
+//Global Variables
+let shuffleQuestions;
+let currentQuestion;
+
 //Functions
 function startGameEasy(){
   console.log("Game Started!");
