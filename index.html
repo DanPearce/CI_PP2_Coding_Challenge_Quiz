@@ -25,6 +25,11 @@
     <div id="username-area">
       <h3>Please enter a username:</h3>
       <p>Please note: username must only consist of letter and numbers; void using spaces or symbols.</p>
+      <form class="username" action="javascript:void(0)" onsubmit="startGame()">
+        <label for="username"></label>
+        <input type="text" id="username" placeholder="Please enter a username!" required>
+        <button id="start-btn" class="btn">Start Quiz!</button>
+      </form>
     </div>
     <!--Quesiton Container Area-->
     <div id="question-container" class="hide">
