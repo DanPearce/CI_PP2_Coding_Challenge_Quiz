@@ -102,7 +102,7 @@ const questionsModerate = [
       { text: 'HTML5 supports the tag which is used to embed a video file in an HTML or XHTML document.', correct: false },
       { text: 'The current HTML5 draft specification does not specify which video formats browsers should support in the video tag.', correct: false },
       { text: 'Ogg files with Theodora video codec and Vorbis audio codec are supported.', correct: false },
-      { text: 'All of the above.', correct: false }
+      { text: 'All of the above.', correct: true }
     ]
   },
   {
@@ -254,12 +254,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'When can you not trigger JavaScript from an event handler?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'When another element is still being processed', correct: false },
+      { text: 'When JavaScript is disabled', correct: true },
+      { text: 'When the page used stylesheets', correct: false },
+      { text: 'When is is running locally instead of on the web', correct: false }
     ]
   },
   {
