@@ -191,12 +191,12 @@ const questionsModerate = [
 //Hard Questions
 const questionsHard = [
   {
-    question: 'What does HTML stand for?',
+    question: 'In HTML the Geolocation, getCurrentPosition(), method is used to _____.',
     answers: [
-      { text: 'Hypertext Markup Language', correct: true },
-      { text: 'Hyperlink Markup Language', correct: false },
-      { text: 'Hypertool Markup Language', correct: false },
-      { text: 'Hypervalue Markup Language', correct: false }
+      { text: 'Return the users position', correct: true },
+      { text: 'Get a map of the world', correct: false },
+      { text: 'Return the latitute', correct: false },
+      { text: 'Return the longitude', correct: false }
     ]
   },
   {
