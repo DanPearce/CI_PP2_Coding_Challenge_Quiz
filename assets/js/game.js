@@ -50,6 +50,8 @@ function startGame(){
 
 function startGameEasy(){
   console.log("Game Started!");
+  correctScore.classList.remove('hide');
+  incorrectScore.classList.remove('hide');
   easyButton.classList.add('hide');
   moderateButton.classList.add('hide');
   hardButton.classList.add('hide');
@@ -63,6 +65,8 @@ function startGameEasy(){
 
 function startGameModerate(){
   console.log("Game Started!");
+  correctScore.classList.remove('hide');
+  incorrectScore.classList.remove('hide');
   easyButton.classList.add('hide');
   moderateButton.classList.add('hide');
   hardButton.classList.add('hide');
@@ -76,6 +80,8 @@ function startGameModerate(){
 
 function startGameHard(){
   console.log("Game Started!");
+  correctScore.classList.remove('hide');
+  incorrectScore.classList.remove('hide');
   easyButton.classList.add('hide');
   moderateButton.classList.add('hide');
   hardButton.classList.add('hide');
