@@ -16,7 +16,15 @@
   </div>
   <!--Quiz Outer Container-->
   <div class="quiz-container">
-  
+    <form id="contact-form" action="#">
+      <label for="name" class="form-label">Full Name:</label>
+      <input type="text" class="form-input"  id="name" name="name" required>
+      <label for="email" class="form-label">Email Address:</label>
+      <input type="email" class="form-input"  id="email" name="email" required>
+      <label for="message" class="form-label">Message:</label>
+      <textarea class="form-input" rows="3" id="message" name="message" required></textarea>
+      <button id="submit" type="submit" class="btn">Submit!</button>
+    </form>
   </div>
   <footer id="footer">
     <div class="footer-links">
