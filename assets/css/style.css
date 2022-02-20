@@ -165,3 +165,8 @@ footer a:hover {
   display: flex;
   justify-content: space-around;
 }
+
+#contact-form {
+  display: grid;
+  gap: 10px;
+}
