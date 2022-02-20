@@ -209,12 +209,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'HTML classes that are already defined and allow us to apply styles on them; are called _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'CSS classes', correct: false },
+      { text: 'JavaScript classes', correct: false },
+      { text: 'Pseudo classes', correct: true },
+      { text: 'None of the above', correct: false }
     ]
   },
   {
