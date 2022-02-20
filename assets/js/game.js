@@ -63,7 +63,13 @@ function resetQuestion(){
 function answerClicked(e){
   const selectedAnswer = e.target;
   const correct = selectedAnswer.dataset.correct;
-
+  if (correct){
+    incrementScore();
+    console.log("Correct!")
+  } else {
+    incrementIncorrectScore();
+    console.log("Whoops! Incorrect!")
+  }
 }
 
 function setAnswerClickedClass(){
