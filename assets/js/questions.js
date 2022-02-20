@@ -12,12 +12,12 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'A HTML program is saved using the _____ file extension.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: '.htm', correct: false },
+      { text: '.hml', correct: false },
+      { text: '.html', correct: true },
+      { text: '.htlm', correct: false }
     ]
   },
   {
