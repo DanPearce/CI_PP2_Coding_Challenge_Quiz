@@ -64,6 +64,13 @@ div a:hover{
   background-color: #1a1a1a;
 }
 
+/*Username Area*/
+#username-area {
+  text-align: center;
+  display: grid;
+  gap: 10px;
+}
+
 /*Difficulty/Question Area*/
 #difficulty {
   text-align: center;
