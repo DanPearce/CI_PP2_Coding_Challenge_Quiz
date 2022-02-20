@@ -245,12 +245,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'Which of the following is an example of an adjacent sibling selector?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'div*p', correct: false },
+      { text: 'div p', correct: false },
+      { text: 'div+p', correct: true },
+      { text: 'div.p', correct: false }
     ]
   },
   {
