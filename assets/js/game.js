@@ -8,6 +8,10 @@ const questionContainer = document.getElementById('question-container');
 const answerButtonsDiv = document.getElementById('answer-btns');
 const nextButton = document.getElementById('next-btn');
 const restartButton = document.getElementById('restart-btn');
+const username = document.getElementById('username');
+const usernameArea = document.getElementById('username-area');
+const welcomeUser = document.getElementById('welcome-user');
+const startButton = document.getElementById('start-btn');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
