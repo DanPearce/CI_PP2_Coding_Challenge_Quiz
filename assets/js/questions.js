@@ -200,12 +200,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'XHTML is a dynamic webpage, whereas HTML is _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Also a dynamic webpage', correct: false },
+      { text: 'A static webpage', correct: true },
+      { text: 'A programming language', correct: false },
+      { text: 'A user defined language', correct: false }
     ]
   },
   {
