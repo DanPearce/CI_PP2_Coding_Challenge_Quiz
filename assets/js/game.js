@@ -5,6 +5,7 @@ const hardButton = document.getElementById('hard-btn');
 const chooseDifficulty = document.getElementById('difficulty');
 const getQuestion = document.getElementById('question');
 const questionContainer = document.getElementById('question-container');
+const answerButtonsDiv = doucment.getElementById('answer-btns');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
