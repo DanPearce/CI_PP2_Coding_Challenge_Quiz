@@ -236,12 +236,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'In CSS the "z-index" property allows us to specify a stack order along the z-axis for _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Boxed elements', correct: false },
+      { text: 'Floated elements', correct: false },
+      { text: 'Inline elements', correct: false },
+      { text: 'Positioned elements', correct: true }
     ]
   },
   {
