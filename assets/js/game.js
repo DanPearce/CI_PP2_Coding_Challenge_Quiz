@@ -73,7 +73,10 @@ function answerClicked(e){
   setAnswerClickedClass(document.body, correct);
   Array.from(answerButtonsDiv.children).forEach(button =>{
     setAnswerClickedClass(button, button.dataset.correct);
-  })
+  });
+  if (shuffleQuestions.length > currentQuestion + 1){
+    nextButton.classList.remove('hide');
+  }
 }
 
 function setAnswerClickedClass(element, correct){
