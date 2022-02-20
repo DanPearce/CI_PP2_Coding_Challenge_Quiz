@@ -43,6 +43,11 @@ function nextQuestion(){
 
 function showQuestion(question){
   getQuestion.innerText = question.question;
+  question.answers.forEach(answer => {
+    const button = document.createElement('button');
+    button.innerText = answer.text;
+    button.classList.add('answer-btn');
+  })
 }
 
 function resetQuestion(){
