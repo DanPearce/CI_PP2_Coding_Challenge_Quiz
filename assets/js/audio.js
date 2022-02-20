@@ -35,7 +35,11 @@ function playCorrectAudio(){
 }
 
 function playIncorrectAudio(){
-
+  if (audioPlaying){
+    incorrectAudio.play();
+  } else {
+    incorrectAudio.pause();
+  }
 }
 
 function playClickAudio(){
