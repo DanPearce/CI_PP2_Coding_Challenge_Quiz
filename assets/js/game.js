@@ -62,6 +62,7 @@ function resetQuestion(){
 
 function answerClicked(e){
   const selectedAnswer = e.target;
+  const correct = selectedAnswer.dataset.correct;
 
 }
 
