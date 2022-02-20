@@ -91,6 +91,7 @@ function answerClicked(e){
     console.log("Quiz Completed!");
     restartButton.classList.remove('hide');
   }
+  disableAnswerButtons();
 }
 
 function setAnswerClickedClass(element, correct){
