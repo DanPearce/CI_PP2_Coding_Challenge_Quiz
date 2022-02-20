@@ -6,6 +6,8 @@ const chooseDifficulty = document.getElementById('difficulty');
 const getQuestion = document.getElementById('question');
 const questionContainer = document.getElementById('question-container');
 const answerButtonsDiv = document.getElementById('answer-btns');
+const nextButton = document.getElementById('next-btn');
+const restartButton = document.getElementById('restart-btn');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
