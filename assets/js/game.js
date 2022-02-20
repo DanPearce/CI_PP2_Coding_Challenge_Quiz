@@ -139,6 +139,10 @@ function answerClicked(e){
   if (shuffleQuestions.length > currentQuestion + 1){
     nextButton.classList.remove('hide');
   } else {
+    questionContainer.classList.add('hide');
+    answerButtonsDiv.classList.add('hide');
+    quizComplete.classList.remove('hide');
+    quizCompleteScore.classList.remove('hide');
     console.log("Quiz Completed!");
     restartButton.classList.remove('hide');
   }
