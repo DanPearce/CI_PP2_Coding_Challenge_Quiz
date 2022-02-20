@@ -24,6 +24,7 @@ hardButton.addEventListener('click', startGameHard);
 nextButton.addEventListener('click', () =>{
   currentQuestion++;
   nextQuestion();
+  playClickAudio();
 })
 restartButton.addEventListener('click', newGame);
 startButton.addEventListener('click', startGame);
@@ -49,6 +50,7 @@ function startGame(){
   if (!username.value.match(regExp)){
     username.setCustomValidity("Please ensure you are entering a username that ONLY contains letters or numbers, and is between 3-20 characters in lenght.");
   }
+  playClickAudio();
 }
 
 function startGameEasy(){
@@ -63,6 +65,7 @@ function startGameEasy(){
   shuffleQuestions = questionsEasy.sort(() => Math.random() - .5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
+  playClickAudio();
   nextQuestion();
 }
 
@@ -78,6 +81,7 @@ function startGameModerate(){
   shuffleQuestions = questionsModerate.sort(() => Math.random() - .5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
+  playClickAudio();
   nextQuestion();
 }
 
@@ -93,12 +97,14 @@ function startGameHard(){
   shuffleQuestions = questionsHard.sort(() => Math.random() - .5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
+  playClickAudio();
   nextQuestion();
 }
 
 function nextQuestion(){
   resetQuestion();
   showQuestion(shuffleQuestions[currentQuestion]);
+  playClickAudio();
 }
 
 function showQuestion(question){
@@ -127,9 +133,11 @@ function answerClicked(e){
   const selectedAnswer = e.target;
   const correct = selectedAnswer.dataset.correct;
   if (correct){
+    playCorrectAudio();
     incrementScore();
     console.log("Correct!")
   } else {
+    playIncorrectAudio();
     incrementIncorrectScore();
     console.log("Whoops! Incorrect!")
   }
@@ -214,6 +222,7 @@ function incrementIncorrectScore(){
 }
 
 function newGame(){
+  playClickAudio();
   document.location.reload();
 }
 
