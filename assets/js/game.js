@@ -78,6 +78,9 @@ function answerClicked(e){
   });
   if (shuffleQuestions.length > currentQuestion + 1){
     nextButton.classList.remove('hide');
+  } else {
+    console.log("Quiz Completed!");
+    restartButton.classList.remove('hide');
   }
 }
 
