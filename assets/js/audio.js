@@ -27,7 +27,11 @@ function audioOff(){
 }
 
 function playCorrectAudio(){
-
+  if (audioPlaying){
+    correctAudio.play();
+  } else {
+    correctAudio.pause();
+  }
 }
 
 function playIncorrectAudio(){
