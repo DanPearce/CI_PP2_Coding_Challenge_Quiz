@@ -60,7 +60,8 @@ function resetQuestion(){
 
 }
 
-function answerClicked(){
+function answerClicked(e){
+  const selectedAnswer = e.target;
 
 }
 
