@@ -135,6 +135,7 @@ body.incorrect {
 a {
   text-decoration: none;
   color: #e8e8e8;
+  font-size: 1.2rem;
 }
 
 a:hover {
