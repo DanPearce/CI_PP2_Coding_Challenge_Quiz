@@ -38,19 +38,21 @@
       <div id="answer-btns" class="btn-grid"></div>
     </div>
     <!--Difficulty Area-->
-    <h3 id="difficulty">Choose difficulty:</h3>
+    <h3 id="difficulty" class="hide">Choose difficulty:</h3>
+    <!--Welcome User Area-->
+    <p id="welcome-user"></p>
     <!--Control Buttons-->
     <div class="controls">
-      <button id="easy-btn" class="btn">Easy Mode</button>
-      <button id="moderate-btn" class="btn">Moderate Mode</button>
-      <button id="hard-btn" class="btn">Hard Mode</button>
+      <button id="easy-btn" class="btn hide">Easy Mode</button>
+      <button id="moderate-btn" class="btn hide">Moderate Mode</button>
+      <button id="hard-btn" class="btn hide">Hard Mode</button>
       <button id="next-btn" class="next-btn btn hide">Next Question</button>
       <button id="restart-btn" class="restart-btn btn hide">Restart Quiz</button>
     </div>
     <!--Score Area-->
     <div>
-      <div class="score-font">Correct: <span id="correct-score">0</span></div>
-      <div class="score-font">Incorrect: <span id="incorrect-score">0</span></div>
+      <div id="correct-score-div" class="score-font">Correct: <span id="correct-score">0</span></div>
+      <div id="incorrect-score-div" class="score-font">Incorrect: <span id="incorrect-score">0</span></div>
       <div id="audio-control">
         <a href="javascript:audioOn()" id="audio-on"><i class="fa-solid fa-music"></i></a>
         <a href="javascript:audioOff()" class="hide" id="audio-off"><i class="fa-solid fa-music-slash"></i></a>
