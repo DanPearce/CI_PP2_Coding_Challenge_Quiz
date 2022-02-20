@@ -35,7 +35,8 @@ function startGameHard(){
 }
 
 function nextQuestion(){
-
+  resetQuestion();
+  showQuestion(shuffleQuestions[currentQuestion]);
 }
 
 function showQuestion(){
