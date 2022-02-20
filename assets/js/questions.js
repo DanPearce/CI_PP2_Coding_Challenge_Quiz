@@ -263,12 +263,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'The syntax of the capture events method for a document object is _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'captureEvents()', correct: false },
+      { text: 'captureEvents(args eventType)', correct: false },
+      { text: 'captureEvents(eventVal)', correct: false },
+      { text: 'captureEvents(eventType)', correct: true }
     ]
   },
   {
