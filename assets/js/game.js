@@ -38,10 +38,26 @@ function startGameEasy(){
 
 function startGameModerate(){
   console.log("Game Started!");
+  easyButton.classList.add('hide');
+  moderateButton.classList.add('hide');
+  hardButton.classList.add('hide');
+  chooseDifficulty.classList.add('hide');
+  shuffleQuestions = questionsModerate.sort(() => Math.random() - .5);
+  currentQuestion = 0;
+  questionContainer.classList.remove('hide');
+  nextQuestion();
 }
 
 function startGameHard(){
   console.log("Game Started!");
+  easyButton.classList.add('hide');
+  moderateButton.classList.add('hide');
+  hardButton.classList.add('hide');
+  chooseDifficulty.classList.add('hide');
+  shuffleQuestions = questionsHard.sort(() => Math.random() - .5);
+  currentQuestion = 0;
+  questionContainer.classList.remove('hide');
+  nextQuestion();
 }
 
 function nextQuestion(){
