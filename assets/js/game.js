@@ -14,6 +14,8 @@ const welcomeUser = document.getElementById('welcome-user');
 const startButton = document.getElementById('start-btn');
 const correctScore = document.getElementById('correct-score-div');
 const incorrectScore = document.getElementById('incorrect-score-div');
+const quizComplete = document.getElementById('quiz-complete');
+const quizCompleteScore = document.getElementById('quiz-complete-score');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
