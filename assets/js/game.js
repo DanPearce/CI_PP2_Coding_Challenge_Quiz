@@ -1,3 +1,8 @@
+//Document Get Area
+const easyButton = document.getElementById('easy-btn');
+const moderateButton = document.getElementById('moderate-btn');
+const hardButton = document.getElementById('hard-btn');
+const chooseDifficulty = document.getElementById('difficulty');
 
 //Functions
 function startGameEasy(){
@@ -41,5 +46,5 @@ function incrementScore(){
 }
 
 function incrementIncorrectScore(){
-  
+
 }
