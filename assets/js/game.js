@@ -52,6 +52,7 @@ function startGameEasy(){
   moderateButton.classList.add('hide');
   hardButton.classList.add('hide');
   chooseDifficulty.classList.add('hide');
+  welcomeUser.classList.add('hide');
   shuffleQuestions = questionsEasy.sort(() => Math.random() - .5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
@@ -64,6 +65,7 @@ function startGameModerate(){
   moderateButton.classList.add('hide');
   hardButton.classList.add('hide');
   chooseDifficulty.classList.add('hide');
+  welcomeUser.classList.add('hide');
   shuffleQuestions = questionsModerate.sort(() => Math.random() - .5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
@@ -76,6 +78,7 @@ function startGameHard(){
   moderateButton.classList.add('hide');
   hardButton.classList.add('hide');
   chooseDifficulty.classList.add('hide');
+  welcomeUser.classList.add('hide');
   shuffleQuestions = questionsHard.sort(() => Math.random() - .5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
