@@ -120,3 +120,10 @@ function incrementIncorrectScore(){
 function newGame(){
   document.location.reload();
 }
+
+function disableAnswerButtons() {
+  let disableButtons = document.getElementsByClassName('answer-btn');
+  for (let i = 0; i < disableButtons.length; i++){
+    disableButtons[i].disabled = true;
+  }
+}
