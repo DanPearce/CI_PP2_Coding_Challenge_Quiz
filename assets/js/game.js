@@ -38,7 +38,11 @@ function startGame(){
     moderateButton.classList.remove('hide');
     hardButton.classList.remove('hide');
     let user = username.value;
-    welcomeUser.innerText = `Welcome ${user}, here's your chance to test your skills and knowledge in HTML, CSS and JavaScript!`
+    welcomeUser.innerText = `Welcome ${user}, here's your chance to test your skills and knowledge in HTML, CSS and JavaScript!`;
+  }
+
+  if (!username.value.match(regExp)){
+    username.setCustomValidity("Please ensure you are entering a username that ONLY contains letters or numbers, and is between 3-20 characters in lenght.");
   }
 }
 
