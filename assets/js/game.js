@@ -81,7 +81,8 @@ function removeAnswerClickedClass(){
 }
 
 function incrementScore(){
-
+  let oldScore = parseInt(document.getElementById('correct-score').innerText);
+  document.getElementById('correct-score').innerText = ++oldScore;
 }
 
 function incrementIncorrectScore(){
