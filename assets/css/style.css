@@ -80,6 +80,7 @@ div a:hover{
 
 #username {
   width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /*Quiz Complete Area*/
@@ -118,6 +119,7 @@ div a:hover{
   color: #e8e8e8;
   font-size: 1.2rem;
   outline: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .answer-btn {
@@ -129,6 +131,7 @@ div a:hover{
   color: #e8e8e8;
   font-size: 1.2rem;
   outline: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /*Answer Button Colouring (functions)*/
