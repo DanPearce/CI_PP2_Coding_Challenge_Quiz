@@ -71,6 +71,9 @@ function answerClicked(e){
     console.log("Whoops! Incorrect!")
   }
   setAnswerClickedClass(document.body, correct);
+  Array.from(answerButtonsDiv.children).forEach(button =>{
+    setAnswerClickedClass(button, button.dataset.correct);
+  })
 }
 
 function setAnswerClickedClass(element, correct){
