@@ -4,6 +4,7 @@ const moderateButton = document.getElementById('moderate-btn');
 const hardButton = document.getElementById('hard-btn');
 const chooseDifficulty = document.getElementById('difficulty');
 const getQuestion = document.getElementById('question');
+const questionContainer = document.getElementById('question-container');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
