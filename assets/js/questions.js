@@ -218,12 +218,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'The default method while submitting a form is the _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Put method', correct: false },
+      { text: 'Post method', correct: false },
+      { text: 'Set method', correct: false },
+      { text: 'Get method', correct: true }
     ]
   },
   {
