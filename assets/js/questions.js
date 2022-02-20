@@ -21,12 +21,12 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'The <title> element must be located inside the _____ element.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: '<body>', correct: false },
+      { text: '<head>', correct: true },
+      { text: '<div>', correct: false },
+      { text: '<span>', correct: false }
     ]
   },
   {
