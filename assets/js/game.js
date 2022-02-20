@@ -24,6 +24,7 @@ function startGameEasy(){
   chooseDifficulty.classList.add('hide');
   shuffleQuestions = questionsEasy.sort(() => Math.random() - .5);
   currentQuestion = 0;
+  questionContainer.classList.remove('hide');
   nextQuestion();
 }
 
