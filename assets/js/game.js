@@ -11,15 +11,15 @@ hardButton.addEventListener('click', startGameHard);
 
 //Functions
 function startGameEasy(){
-
+  console.log("Game Started!");
 }
 
 function startGameModerate(){
-
+  console.log("Game Started!");
 }
 
 function startGameHard(){
-  
+  console.log("Game Started!");
 }
 
 function nextQuestion(){
