@@ -142,12 +142,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'Pseudo-classes in CSS are used to _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Match a specified element', correct: false },
+      { text: 'Select the active links', correct: false },
+      { text: 'Select all the visited links', correct: false },
+      { text: 'Define a special state of an element', correct: true }
     ]
   },
   {
