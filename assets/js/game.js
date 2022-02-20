@@ -32,6 +32,7 @@ startButton.addEventListener('click', startGame);
 let shuffleQuestions;
 let currentQuestion;
 let regExp = /^(?=[a-zA-Z0-9._]{3,20}$)(?!.*[_.]{2})[^_.].*[^_.]$/;
+let audioPlaying = true;
 
 //Functions
 function startGame(){
