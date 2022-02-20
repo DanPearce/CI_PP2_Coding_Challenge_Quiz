@@ -64,7 +64,6 @@ function showQuestion(question){
 }
 
 function resetQuestion(){
-
 }
 
 function answerClicked(e){
@@ -90,7 +89,7 @@ function answerClicked(e){
 }
 
 function setAnswerClickedClass(element, correct){
-  removeAnswerClickedClass();
+  removeAnswerClickedClass(element);
   if (correct){
     element.classList.add('correct');
   } else {
