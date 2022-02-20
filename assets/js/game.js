@@ -66,7 +66,9 @@ function showQuestion(question){
 function resetQuestion(){
   removeAnswerClickedClass(document.body);
   nextButton.classList.add('hide');
-  
+  while (answerButtonsDiv.firstChild){
+    answerButtonsDiv.removeChild(answerButtonsDiv.firstChild);
+  }
 }
 
 function answerClicked(e){
