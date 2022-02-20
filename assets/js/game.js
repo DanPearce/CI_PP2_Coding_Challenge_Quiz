@@ -12,6 +12,8 @@ const username = document.getElementById('username');
 const usernameArea = document.getElementById('username-area');
 const welcomeUser = document.getElementById('welcome-user');
 const startButton = document.getElementById('start-btn');
+const correctScore = document.getElementById('correct-score-div');
+const incorrectScore = document.getElementById('incorrect-score-div');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
