@@ -1,6 +1,5 @@
 *, *::before, *, *::after {
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 :root {
@@ -18,6 +17,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
   background-color: hsl(var(--bg), 100%, 30%);
 }
 
