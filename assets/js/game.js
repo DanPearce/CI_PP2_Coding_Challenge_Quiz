@@ -41,8 +41,8 @@ function nextQuestion(){
   showQuestion(shuffleQuestions[currentQuestion]);
 }
 
-function showQuestion(){
-
+function showQuestion(question){
+  getQuestion.innerText = question.question;
 }
 
 function resetQuestion(){
