@@ -151,12 +151,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'Which snippet of CSS is commonly used to center a website horizontally?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'margin: 0 auto;', correct: true },
+      { text: 'margin: auto 0;', correct: false },
+      { text: 'site-align: center;', correct: false },
+      { text: 'margin: center;', correct: false }
     ]
   },
   {
