@@ -26,6 +26,7 @@ restartButton.addEventListener('click', newGame);
 //Global Variables
 let shuffleQuestions;
 let currentQuestion;
+let regExp = /^(?=[a-zA-Z0-9._]{3,20}$)(?!.*[_.]{2})[^_.].*[^_.]$/;
 
 //Functions
 function startGameEasy(){
