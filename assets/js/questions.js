@@ -272,12 +272,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'How would you append a value to an array in JavaScript?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'arr[arr.length] = value', correct: true },
+      { text: 'arr[arr.length*1] = value', correct: false },
+      { text: 'arr[arr.length+1] = new Arrays()', correct: false },
+      { text: 'arr[arr.length-1] = value', correct: false }
     ]
   }
 ]
