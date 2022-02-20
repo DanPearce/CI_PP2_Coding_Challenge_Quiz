@@ -70,6 +70,7 @@ function answerClicked(e){
     incrementIncorrectScore();
     console.log("Whoops! Incorrect!")
   }
+  setAnswerClickedClass();
 }
 
 function setAnswerClickedClass(){
