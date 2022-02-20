@@ -169,12 +169,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'A property is an object oriented equivalent to _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'A function', correct: false },
+      { text: 'An if statement', correct: false },
+      { text: 'A reserved word', correct: false },
+      { text: 'A variable', correct: true }
     ]
   },
   {
