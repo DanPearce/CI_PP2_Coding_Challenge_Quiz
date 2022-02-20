@@ -1,29 +1,38 @@
-//Document Get Area
+//Document Get Variables
 const correctAudio = new Audio('assets/audio/correct.mp3');
 const incorrectAudio = new Audio('assets/audio/incorrect.wav');
 const clickAudio = new Audio('assets/audio/click.wav');
-const audioOffButton = document.getElementById('audio-off');
-const audioOnButton = document.getElementById('audio-on');
+const audioOnButton = document.getElementsByClassName('audio-on');
+const audioOffButton = document.getElementsByClassName('audio-off');
 
-//Event Listeners
-audioOffButton.addEventListener('click', audioOff);
-audioOnButton.addEventListener('click', audioOn);
+//Global Variables
+let audioControls = document.getElementsByClassName('audio-controls');
+for (let i = 0; i < audioControls.length; i++){
+  audioControls[i].addEventListener('click', () =>{
+    audioControl();
+  })
+}
 
 //Functions
 function audioControl(){
-  audioPlaying ? audioOn : audioOff();
+  audioPlaying ? audioOff() : audioOn();
 }
 
 function audioOn(){
   audioPlaying = true;
-  audioOnButton.classList.remove('hide');
-  audioOffButton.classList.add('hide');
+  for (let i = 0; i < audioOffButton.length && audioOnButton.length; i++){
+    audioOffButton[i].classList.add('hide');
+    audioOnButton[i].classList.remove('hide');
+  }
 }
 
 function audioOff(){
   audioPlaying = false;
-  audioOnButton.classList.add('hide');
-  audioOffButton.classList.remove('hide');
+  for (let i = 0; i < audioOffButton.length && audioOnButton.length; i++){
+    audioOffButton[i].classList.remove('hide');
+    audioOnButton[i].classList.add('hide');
+  }
+  
 }
 
 function playCorrectAudio(){
