@@ -133,12 +133,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'In CSS, the default value of the position attribute is _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Fixed', correct: false },
+      { text: 'Absolute', correct: false },
+      { text: 'Static', correct: true },
+      { text: 'Inherit', correct: false }
     ]
   },
   {
