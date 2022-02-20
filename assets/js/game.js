@@ -82,8 +82,9 @@ function setAnswerClickedClass(element, correct){
   }
 }
 
-function removeAnswerClickedClass(){
-
+function removeAnswerClickedClass(element){
+  element.classList.remove('correct');
+  element.classList.remove('incorrect');
 }
 
 function incrementScore(){
