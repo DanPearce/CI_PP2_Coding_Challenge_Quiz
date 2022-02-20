@@ -22,6 +22,7 @@ nextButton.addEventListener('click', () =>{
   nextQuestion();
 })
 restartButton.addEventListener('click', newGame);
+startButton.addEventListener('click', startGame);
 
 //Global Variables
 let shuffleQuestions;
@@ -29,6 +30,16 @@ let currentQuestion;
 let regExp = /^(?=[a-zA-Z0-9._]{3,20}$)(?!.*[_.]{2})[^_.].*[^_.]$/;
 
 //Functions
+function startGame(){
+  if (username.value.match(regExp) && username.value != "" && username.value != null && username.value != undefined){
+    usernameArea.classList.add('hide');
+    chooseDifficulty.classList.remove('hide');
+    easyButton.classList.remove('hide');
+    moderateButton.classList.remove('hide');
+    hardButton.classList.remove('hide');
+  }
+}
+
 function startGameEasy(){
   console.log("Game Started!");
   easyButton.classList.add('hide');
