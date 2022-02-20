@@ -39,12 +39,12 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'What does CSS stand for?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Colourful Style Sheets', correct: false },
+      { text: 'Canvas Style Sheets', correct: false },
+      { text: 'Computer Style Sheets', correct: false },
+      { text: 'Cascading Style Sheets', correct: true }
     ]
   },
   {
