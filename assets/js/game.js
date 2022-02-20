@@ -20,6 +20,8 @@ function startGameEasy(){
   moderateButton.classList.add('hide');
   hardButton.classList.add('hide');
   chooseDifficulty.classList.add('hide');
+  shuffleQuestions = questionsEasy.sort(() => Math.random() - .5);
+  currentQuestion = 0;
 }
 
 function startGameModerate(){
