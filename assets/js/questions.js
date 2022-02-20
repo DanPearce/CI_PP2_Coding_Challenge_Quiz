@@ -106,12 +106,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'Which attribute is used to name an element uniquely?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Class', correct: false },
+      { text: 'ID', correct: true },
+      { text: 'dot "."', correct: false },
+      { text: 'All of the above.', correct: false }
     ]
   },
   {
