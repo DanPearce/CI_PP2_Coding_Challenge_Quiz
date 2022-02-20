@@ -11,7 +11,7 @@ audioOnButton.addEventListener('click', audioOn);
 
 //Functions
 function audioControl(){
-
+  audioPlaying ? audioOn : audioOff();
 }
 
 function audioOn(){
