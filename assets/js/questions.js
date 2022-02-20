@@ -66,21 +66,21 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'Where is the correct place to insert a <script> tag>',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'The <body> section', correct: false },
+      { text: 'The <footer> section', correct: false },
+      { text: 'The <head> section', correct: false },
+      { text: 'Both the <body> and <head> sections are correct', correct: true }
     ]
   },
   {
-    question: '',
+    question: 'In JavaScript, how would you call a function called "firstFunction"?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'firstFunction()', correct: true },
+      { text: 'call function firstFunction()', correct: false },
+      { text: 'call firstFunction()', correct: false },
+      { text: 'call function firstFunction', correct: false }
     ]
   },
   {
