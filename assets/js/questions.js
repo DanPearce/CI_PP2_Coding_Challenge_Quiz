@@ -160,12 +160,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'Using the _____ statement is how you would test for a specific condition.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Switch', correct: false },
+      { text: 'Select', correct: false },
+      { text: 'If', correct: true },
+      { text: 'For', correct: false }
     ]
   },
   {
