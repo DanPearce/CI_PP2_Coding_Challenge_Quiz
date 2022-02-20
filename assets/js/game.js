@@ -143,6 +143,13 @@ function answerClicked(e){
     answerButtonsDiv.classList.add('hide');
     quizComplete.classList.remove('hide');
     quizCompleteScore.classList.remove('hide');
+    let scoreEnd = parseInt(document.getElementById('correct-score').innerText);
+    let user = username.value;
+    switch(scoreEnd){
+      case 0:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+    }
     console.log("Quiz Completed!");
     restartButton.classList.remove('hide');
   }
