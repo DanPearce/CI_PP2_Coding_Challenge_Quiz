@@ -48,12 +48,12 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'Which of the following properties is used to change the face of a font in CSS?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'font-style', correct: false },
+      { text: 'font-family', correct: true },
+      { text: 'font-varient', correct: false },
+      { text: 'font-weight', correct: false }
     ]
   },
   {
