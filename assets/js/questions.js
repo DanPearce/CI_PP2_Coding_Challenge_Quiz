@@ -227,12 +227,12 @@ const questionsHard = [
     ]
   },
   {
-    question: '',
+    question: 'How do you rotate objects using CSS3?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'object-rotation: 30deg;', correct: false },
+      { text: 'transform: rotate(30deg);', correct: true },
+      { text: 'rotate-object: 30deg;', correct: false },
+      { text: 'transform: rotate-30deg-clockwise;', correct: false }
     ]
   },
   {
