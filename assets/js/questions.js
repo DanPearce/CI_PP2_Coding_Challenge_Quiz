@@ -7,6 +7,87 @@ const questionsEasy = [
       { text: 'Hypertool Markup Language', correct: false },
       { text: 'Hypervalue Markup Language', correct: false }
     ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
   }
 ]
 
@@ -19,6 +100,87 @@ const questionsModerate = [
       { text: 'Hypertool Markup Language', correct: false },
       { text: 'Hypervalue Markup Language', correct: false }
     ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
   }
 ]
 
@@ -30,6 +192,87 @@ const questionsHard = [
       { text: 'Hyperlink Markup Language', correct: false },
       { text: 'Hypertool Markup Language', correct: false },
       { text: 'Hypervalue Markup Language', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
+    ]
+  },
+  {
+    question: '',
+    answers: [
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false },
+      { text: '', correct: false }
     ]
   }
 ]
