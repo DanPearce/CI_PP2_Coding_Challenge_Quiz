@@ -149,6 +149,38 @@ function answerClicked(e){
       case 0:
         quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
         break;
+      case 1:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 2:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 3:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 4:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 5:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 6:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 7:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 8:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 9:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      case 10:
+        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        break;
+      default:
+        quizCompleteScore.innerText = "Looks like our scoring system has broken! Please contact us to report this bug!";
     }
     console.log("Quiz Completed!");
     restartButton.classList.remove('hide');
