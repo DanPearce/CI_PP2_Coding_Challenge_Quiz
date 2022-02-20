@@ -12,6 +12,10 @@ hardButton.addEventListener('click', startGameHard);
 //Functions
 function startGameEasy(){
   console.log("Game Started!");
+  easyButton.classList.add('hide');
+  moderateButton.classList.add('hide');
+  hardButton.classList.add('hide');
+  chooseDifficulty.classList.add('hide');
 }
 
 function startGameModerate(){
