@@ -30,12 +30,12 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'Which element would you use to create a HyperLink?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: '<link>', correct: false },
+      { text: '<a>', correct: true },
+      { text: '<img>', correct: false },
+      { text: '<dl>', correct: false }
     ]
   },
   {
