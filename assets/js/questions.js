@@ -124,12 +124,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'Which are the commonly used methods for request and response between a client and server?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Get and Put', correct: false },
+      { text: 'Get and Post', correct: true },
+      { text: 'Set and Post', correct: false },
+      { text: 'Set and Put', correct: false }
     ]
   },
   {
