@@ -13,6 +13,11 @@ const restartButton = document.getElementById('restart-btn');
 easyButton.addEventListener('click', startGameEasy);
 moderateButton.addEventListener('click', startGameModerate);
 hardButton.addEventListener('click', startGameHard);
+nextButton.addEventListener('click', () =>{
+  currentQuestion++;
+  nextQuestion();
+})
+restartButton.addEventListener('click', newGame);
 
 //Global Variables
 let shuffleQuestions;
