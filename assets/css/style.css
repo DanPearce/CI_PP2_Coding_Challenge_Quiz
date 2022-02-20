@@ -1,13 +1,16 @@
+/*Everything on page, before and after*/
 *, *::before, *, *::after {
   box-sizing: border-box;
 }
 
+/*CSS Functions for Background*/
 :root {
   --bg-normal: 175;
   --bg-incorrect: 360;
   --bg-correct: 150;
 }
 
+/*Main Body*/
 body {
   --bg: var(--bg-normal);
   margin: 0;
@@ -21,6 +24,7 @@ body {
   background-color: hsl(var(--bg), 100%, 30%);
 }
 
+/*Function change background - links to JavaScript to change depending on correct/wrong answer*/
 body.correct {
   --bg: var(--bg-correct);
 }
@@ -29,6 +33,7 @@ body.incorrect {
   --bg: var(--bg-incorrect);
 }
 
+/*Header Area*/
 .header {
   position: absolute;
   top: 5%;
@@ -37,6 +42,7 @@ body.incorrect {
   color: #e8e8e8;
 }
 
+/*Main Quiz Area*/
 .quiz-container {
   margin-top: 100px;
   width: 750px;
@@ -47,6 +53,7 @@ body.incorrect {
   box-shadow: 0 0 15px 5px;
 }
 
+/*Links inside Quiz Area*/
 div a {
   color: #1a1a1a;
   font-size: 1.5rem;
@@ -57,6 +64,7 @@ div a:hover{
   background-color: #1a1a1a;
 }
 
+/*Difficulty/Question Area*/
 #difficulty {
   text-align: center;
   font-size: 1.5rem;
@@ -66,6 +74,7 @@ div a:hover{
   font-size: 1.5rem;
 }
 
+/*Buttons*/
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -95,6 +104,7 @@ div a:hover{
   outline: none;
 }
 
+/*Answer Button Colouring (functions)*/
 .answer-btn.correct {
   --bg: var(--bg-correct);
 }
@@ -103,6 +113,7 @@ div a:hover{
   --bg: var(--bg-incorrect);
 }
 
+/*Control Buttons*/
 .controls {
   display: grid;
   gap: 10px;
@@ -117,6 +128,7 @@ div a:hover{
   padding: 10px 20px;
 }
 
+/*Score Area*/
 .score-font {
   font-size: 1.2rem;
 }
@@ -130,15 +142,18 @@ div a:hover{
   --bg: var(--bg-incorrect);
   color: hsl(var(--bg), 100%, 50%);
 }
+/*Audio Area*/
 #audio-control{
   display: flex;
   justify-content: flex-end;
 }
 
+/*Hide*/
 .hide {
   display: none !important;
 }
 
+/*Footer and Links*/
 #footer {
   text-align: center;
   bottom: 0;
@@ -166,6 +181,7 @@ footer a:hover {
   justify-content: space-around;
 }
 
+/*Contact Us Page*/
 #contact-form {
   display: grid;
   gap: 10px;
