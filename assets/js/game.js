@@ -70,11 +70,16 @@ function answerClicked(e){
     incrementIncorrectScore();
     console.log("Whoops! Incorrect!")
   }
-  setAnswerClickedClass();
+  setAnswerClickedClass(document.body, correct);
 }
 
-function setAnswerClickedClass(){
-
+function setAnswerClickedClass(element, correct){
+  removeAnswerClickedClass();
+  if (correct){
+    element.classList.add('correct');
+  } else {
+    element.classList.add('incorrect');
+  }
 }
 
 function removeAnswerClickedClass(){
