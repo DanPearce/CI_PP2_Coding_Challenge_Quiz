@@ -112,3 +112,7 @@ function incrementIncorrectScore(){
   let oldScore = parseInt(document.getElementById('incorrect-score').innerText);
   document.getElementById('incorrect-score').innerText = ++oldScore;
 }
+
+function newGame(){
+  document.location.reload();
+}
