@@ -82,6 +82,11 @@ div a:hover{
   width: 100%;
 }
 
+/*Quiz Complete Area*/
+#quiz-complete{
+  text-align: center;
+}
+
 /*Difficulty/Question Area*/
 #difficulty {
   text-align: center;
@@ -168,6 +173,10 @@ div a:hover{
 #audio-control{
   display: flex;
   justify-content: flex-end;
+}
+
+.audio-controls {
+  font-size: 1.5rem;
 }
 
 /*Hide*/
