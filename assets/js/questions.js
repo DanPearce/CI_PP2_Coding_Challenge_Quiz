@@ -84,12 +84,12 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'JavaScript code is written inside a file with the ending extension _____.',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: '.jvs', correct: false },
+      { text: '.js', correct: true },
+      { text: '.jsc', correct: false },
+      { text: '.javascript', correct: false }
     ]
   }
 ]
