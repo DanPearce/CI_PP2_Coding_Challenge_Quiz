@@ -64,6 +64,9 @@ function showQuestion(question){
 }
 
 function resetQuestion(){
+  removeAnswerClickedClass(document.body);
+  nextButton.classList.add('hide');
+  
 }
 
 function answerClicked(e){
