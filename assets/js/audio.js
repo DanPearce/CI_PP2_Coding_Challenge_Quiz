@@ -21,7 +21,9 @@ function audioOn(){
 }
 
 function audioOff(){
-
+  audioPlaying = false;
+  audioOnButton.classList.add('hide');
+  audioOffButton.classList.remove('hide');
 }
 
 function playCorrectAudio(){
