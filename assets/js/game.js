@@ -5,7 +5,7 @@ const hardButton = document.getElementById('hard-btn');
 const chooseDifficulty = document.getElementById('difficulty');
 const getQuestion = document.getElementById('question');
 const questionContainer = document.getElementById('question-container');
-const answerButtonsDiv = doucment.getElementById('answer-btns');
+const answerButtonsDiv = document.getElementById('answer-btns');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
@@ -51,6 +51,8 @@ function showQuestion(question){
     if (answer.correct) {
       button.dataset.correct = answer.correct;
     }
+    button.addEventListener('click', answerClicked);
+    answerButtonsDiv.appendChild(button);
   })
 }
 
