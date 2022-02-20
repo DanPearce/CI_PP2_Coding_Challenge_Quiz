@@ -57,12 +57,12 @@ const questionsEasy = [
     ]
   },
   {
-    question: '',
+    question: 'How do you insert a comment in a CSS file?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: '// this is a comment //', correct: false },
+      { text: '<!-- this is a comment -->', correct: false },
+      { text: '/* This is a comment */', correct: true },
+      { text: '# this is a comment', correct: false }
     ]
   },
   {
