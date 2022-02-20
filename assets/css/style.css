@@ -88,6 +88,10 @@ div a:hover{
   font-size: 1.5rem;
 }
 
+#welcome-user {
+  text-align: center;
+}
+
 #question {
   font-size: 1.5rem;
 }

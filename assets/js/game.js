@@ -37,6 +37,8 @@ function startGame(){
     easyButton.classList.remove('hide');
     moderateButton.classList.remove('hide');
     hardButton.classList.remove('hide');
+    let user = username.value;
+    welcomeUser.innerText = `Welcome ${user}, here's your chance to test your skills and knowledge in HTML, CSS and JavaScript!`
   }
 }
 
