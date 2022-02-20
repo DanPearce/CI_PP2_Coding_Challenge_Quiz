@@ -130,6 +130,10 @@ div a:hover{
   --bg: var(--bg-incorrect);
   color: hsl(var(--bg), 100%, 50%);
 }
+#sound-control{
+  display: flex;
+  justify-content: flex-end;
+}
 
 .hide {
   display: none !important;
