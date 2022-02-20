@@ -10,3 +10,26 @@ audioOffButton.addEventListener('click', audioOff);
 audioOnButton.addEventListener('click', audioOn);
 
 //Functions
+function audioControl(){
+
+}
+
+function audioOn(){
+
+}
+
+function audioOff(){
+
+}
+
+function playCorrectAudio(){
+
+}
+
+function playIncorrectAudio(){
+
+}
+
+function playClickAudio(){
+
+}
