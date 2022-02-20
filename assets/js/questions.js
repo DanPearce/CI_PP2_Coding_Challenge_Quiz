@@ -1,3 +1,6 @@
+//Question Object Array's
+
+//Easy Questions
 const questionsEasy = [
   {
     question: 'What does HTML stand for?',
@@ -91,6 +94,7 @@ const questionsEasy = [
   }
 ]
 
+//Moderate Questions
 const questionsModerate = [
   {
     question: 'What does HTML stand for?',
@@ -184,6 +188,7 @@ const questionsModerate = [
   }
 ]
 
+//Hard Questions
 const questionsHard = [
   {
     question: 'What does HTML stand for?',
