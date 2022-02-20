@@ -47,6 +47,16 @@ body.incorrect {
   box-shadow: 0 0 15px 5px;
 }
 
+div a {
+  color: #1a1a1a;
+  font-size: 1.5rem;
+}
+
+div a:hover{
+  color: #e8e8e8;
+  background-color: #1a1a1a;
+}
+
 #difficulty {
   text-align: center;
   font-size: 1.5rem;
@@ -132,13 +142,13 @@ body.incorrect {
   color: #e8e8e8;
 }
 
-a {
+footer a {
   text-decoration: none;
   color: #e8e8e8;
   font-size: 1.2rem;
 }
 
-a:hover {
+footer a:hover {
   color: #1a1a1a;
   background-color: #e8e8e8;
 }
