@@ -147,37 +147,37 @@ function answerClicked(e){
     let user = username.value;
     switch(scoreEnd){
       case 0:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! Oh dear ${user}! Maybe some more revision would help!`;
         break;
       case 1:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! Keep revising ${user}, and come back and try again!`;
         break;
       case 2:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! I've seen worse ${user}! Keep trying!`;
         break;
       case 3:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! I've seen worse ${user}! Keep on revising!`;
         break;
       case 4:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! Keep on going ${user}! Maybe some more revision would help!`;
         break;
       case 5:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! Half way there is better than no way there ${user}!`;
         break;
       case 6:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10 ${user}! Not too shabby young padawan!`;
         break;
       case 7:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! That's more like it ${user}, keep on trying!`;
         break;
       case 8:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! 2 off the mark ${user}! Not bad at all!`;
         break;
       case 9:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! Almost there ${user}! Try again to see if you can remember the one you got wrong!`;
         break;
       case 10:
-        quizCompleteScore.innerText = `${scoreEnd}/10 Oh dear ${user}! Maybe some more revision would help!`;
+        quizCompleteScore.innerText = `${scoreEnd}/10! Well done ${user}! You must be an expert!`;
         break;
       default:
         quizCompleteScore.innerText = "Looks like our scoring system has broken! Please contact us to report this bug!";
