@@ -178,12 +178,12 @@ const questionsModerate = [
     ]
   },
   {
-    question: '',
+    question: 'What is meant by the "this" keyword in JavaScript?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'It refers to the previous object', correct: false },
+      { text: 'It is a variable which contains a value', correct: false },
+      { text: 'It refers to the current object', correct: true },
+      { text: 'None of the above', correct: false }
     ]
   }
 ]
