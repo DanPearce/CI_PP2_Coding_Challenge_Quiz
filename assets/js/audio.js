@@ -43,5 +43,9 @@ function playIncorrectAudio(){
 }
 
 function playClickAudio(){
-
+  if (audioPlaying){
+    clickAudio.play();
+  } else {
+    clickAudio.pause();
+  }
 }
