@@ -1,5 +1,5 @@
-//Document Get Functions
-const quizContainer = document.getElementById('quiz-container');
+const form = document.getElementsByTagName('form')[0];
+
 
 //Functions
 window.onload = function sendEmail(){
@@ -12,10 +12,10 @@ window.onload = function sendEmail(){
     }), function(error){
       console.log('Failed..', error);
     }
+    emailSent();
   });
-  emailSent();
 }
 
 function emailSent(){
-
+  form.classList.add('hide');
 }
