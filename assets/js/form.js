@@ -1,17 +1,18 @@
-//Document Get Functions
-const submit = document.getElementById('submit'); 
-
-submit.addEventListener('submit', sendEmail);
+const project = document.getElementById('project');
+project.readOnly = true;
 
 //Functions
-function sendEmail(){
-  preventDefault();
-  emailjs.init("user_cv6MUQhR9JkAaQYC30WwK");
-  const name = document.getElementById('name');
-  const email = document.getElementById('email');
-  const message = document.getElementById('message');
-  const project = document.getElementById('project');
-  emailjs.send('service_i7kt59p', 'service_i7kt59p', this)
+window.onload = function sendEmail(){
+  document.getElementById('contact-form').addEventListener('submit', function(event){
+    event.preventDefault();
+    emailjs.init("user_cv6MUQhR9JkAaQYC30WwK");
+    emailjs.sendForm('danpearcesoftware', 'template_q6jr6d9', this)
+    .then(function(){
+      console.log('Email Sent Successfully');
+    }), function(error){
+      console.log('Failed..', error);
+    }
+  })
 }
 
 function emailSent(){
