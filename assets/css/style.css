@@ -229,3 +229,11 @@ footer a:hover {
 textarea {
   resize: none;
 }
+
+#project {
+  text-align: center;
+  border: none;
+  background-color: #e8e8e8;
+  color: #1a1a1a;
+  font-family: 'Courier New', Courier, monospace;
+}
