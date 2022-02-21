@@ -1,3 +1,6 @@
+//Document Get Functions
+const quizContainer = document.getElementById('quiz-container');
+
 //Functions
 window.onload = function sendEmail(){
   document.getElementById('contact-form').addEventListener('submit', function(event){
@@ -9,7 +12,8 @@ window.onload = function sendEmail(){
     }), function(error){
       console.log('Failed..', error);
     }
-  })
+  });
+  emailSent();
 }
 
 function emailSent(){
