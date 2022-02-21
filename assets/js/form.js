@@ -1,6 +1,3 @@
-const project = document.getElementById('project');
-project.readOnly = true;
-
 //Functions
 window.onload = function sendEmail(){
   document.getElementById('contact-form').addEventListener('submit', function(event){
