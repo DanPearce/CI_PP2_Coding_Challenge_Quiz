@@ -106,6 +106,10 @@ function startGameHard(){
   nextQuestion();
 }
 
+function questionProgressCounter(qV) {
+  
+}
+
 function nextQuestion(){
   resetQuestion();
   showQuestion(shuffleQuestions[currentQuestion]);
