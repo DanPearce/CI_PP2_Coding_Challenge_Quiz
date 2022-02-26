@@ -24,6 +24,7 @@ body {
   background-color: hsl(var(--bg), 100%, 30%);
 }
 
+/*Main Body Section*/
 #main {
   display: grid;
   justify-content: center;
@@ -96,7 +97,7 @@ div a:hover{
   margin-right: auto;
   width: 16px;
 }
-
+  /*Tooltip Styling*/
 .tooltip .tooltip-text {
   visibility: hidden;
   width: 500px;
@@ -238,6 +239,7 @@ progress::-moz-progress-bar {
   --bg: var(--bg-incorrect);
   color: hsl(var(--bg), 100%, 50%);
 }
+
 /*Audio Area*/
 #audio-control{
   display: flex;
@@ -295,14 +297,10 @@ footer a:hover {
 }
 
 /*Contact Us Page*/
+  /*Form Area*/
 #contact-form {
   display: grid;
   gap: 10px;
-}
-
-#home-btn {
-  position: absolute;
-  margin-top: 480px;
 }
 
 textarea {
@@ -315,4 +313,9 @@ textarea {
   background-color: #e8e8e8;
   color: #1a1a1a;
   font-family: 'Courier New', Courier, monospace;
+}
+  /*Home Button*/
+#home-btn {
+  position: absolute;
+  margin-top: 480px;
 }
