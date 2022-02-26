@@ -120,6 +120,7 @@ function nextQuestion(){
 }
 
 function showQuestion(question){
+  progressText.innerText = `Question ${currentQuestion + 1}/${maxQuestion}`
   getQuestion.innerText = question.question;
   question.answers.forEach(answer => {
     const button = document.createElement('button');
