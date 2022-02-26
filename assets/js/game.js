@@ -48,7 +48,7 @@ function startGame(){
   }
 
   if (!username.value.match(regExp)){
-    username.setCustomValidity("Please ensure you are entering a username that ONLY contains letters or numbers, and is between 3-20 characters in lenght.");
+    username.setCustomValidity("Please ensure you are entering a username that ONLY contains letters or numbers, and is between 3-20 characters in length.");
   }
   playClickAudio();
 }
