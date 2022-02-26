@@ -93,12 +93,14 @@ div a:hover{
 /*Tooltip Area*/
 .tooltip {
   display: flex;
-  justify-content: flex-end;
+  margin-right: auto;
+  width: 16px;
 }
 
 .tooltip .tooltip-text {
   visibility: hidden;
-  width: 50%;
+  width: 500px;
+  max-width: 75%;
   text-align: center;
   border-radius: 3px;
   background-color: #1a1a1a;
