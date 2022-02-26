@@ -19,6 +19,7 @@ const quizCompleteScore = document.getElementById('quiz-complete-score');
 const progressText = document.getElementById('progress-text');
 const progressBar = document.getElementById('progress-bar');
 const percentage = document.getElementById('percentage');
+const progressDiv = document.getElementById('progress-container');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
@@ -163,6 +164,7 @@ function answerClicked(e){
   } else {
     questionContainer.classList.add('hide');
     answerButtonsDiv.classList.add('hide');
+    progressDiv.classList.add('hide');
     quizComplete.classList.remove('hide');
     quizCompleteScore.classList.remove('hide');
     let scoreEnd = parseInt(document.getElementById('correct-score').innerText);
