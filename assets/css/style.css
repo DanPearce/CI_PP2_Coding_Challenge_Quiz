@@ -24,6 +24,13 @@ body {
   background-color: hsl(var(--bg), 100%, 30%);
 }
 
+#main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 /*Function change background - links to JavaScript to change depending on correct/wrong answer*/
 body.correct {
   --bg: var(--bg-correct);
@@ -46,7 +53,6 @@ body.incorrect {
 .quiz-container {
   margin-top: 100px;
   width: 750px;
-  max-width: 80%;
   background-color: #e8e8e8;
   border-radius: 10px;
   padding: 20px;
@@ -206,6 +212,11 @@ div a:hover{
 /*Hide*/
 .hide {
   display: none !important;
+}
+
+/*Random Advice Area*/
+#random-advice {
+  text-align: center;
 }
 
 /*Footer and Links*/
