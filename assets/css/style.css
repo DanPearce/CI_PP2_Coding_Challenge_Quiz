@@ -113,6 +113,42 @@ div a:hover{
   visibility: visible;
 }
 
+/*Progress Bar Area*/
+#progress-container {
+  text-align: center;
+}
+  /*IE and EDGE*/
+progress {
+  --bg: var(--bg-normal);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 50%;
+  height: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 2px solid #1a1a1a;
+  background-color: #e8e8e8;
+  color: hsl(var(--bg), 100%, 30%);
+}
+  /*Webkit - Chrome, Safari, Opera etc.*/
+progress::-webkit-progress-bar {
+  background: #e8e8e8;
+  border-radius: 20px;
+}
+  
+progress::-webkit-progress-value {
+  --bg: var(--bg-normal);
+  background: hsl(var(--bg), 100%, 30%);
+  border-radius: 20px;
+}
+  /*Firefox*/
+progress::-moz-progress-bar {
+  --bg: var(--bg-normal);
+  background: hsl(var(--bg), 100%, 30%);
+  border-radius: 20px;
+}
+
 /*Quiz Complete Area*/
 #quiz-complete{
   text-align: center;
