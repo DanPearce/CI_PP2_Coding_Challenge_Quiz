@@ -107,12 +107,15 @@ function startGameHard(){
 }
 
 function questionProgressCounter(qV) {
-  
+  percentage.innerHTML = `${questionValue}%`
+  questionValue++;
+  progressBar.value = questionValue;
 }
 
 function nextQuestion(){
   resetQuestion();
   showQuestion(shuffleQuestions[currentQuestion]);
+  questionProgressCounter(questionValue);
   playClickAudio();
 }
 
