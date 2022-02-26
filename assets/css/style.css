@@ -205,7 +205,8 @@ div a:hover{
 /*Audio Area*/
 #audio-control{
   display: flex;
-  justify-content: flex-end;
+  width: 30px;
+  margin-left: auto;
 }
 
 .audio-controls {
