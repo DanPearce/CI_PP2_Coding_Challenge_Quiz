@@ -218,6 +218,8 @@ div a:hover{
 /*Random Advice Area*/
 #random-advice {
   text-align: center;
+  margin-top: 5vh;
+  color: #e8e8e8;
 }
 
 p#random-advice {
