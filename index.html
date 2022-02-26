@@ -24,10 +24,13 @@
     <!--Username Area-->
     <div id="username-area">
       <h3>Please enter a username:</h3>
-      <p>Please note: username must only consist of letter and numbers; void using spaces or symbols.</p>
       <form class="username" action="javascript:void(0)" onsubmit="startGame()">
         <label for="username"></label>
         <input type="text" id="username" placeholder="Please enter a username!" required>
+        <div class="tooltip">
+          <i class="fa-solid fa-circle-question"></i>
+          <p class="tooltip-text">Please ensure you are entering a username that ONLY contains letters or numbers, and is between 3-20 characters in length.</p>
+        </div>
         <button id="start-btn" class="btn">Start Quiz!</button>
       </form>
     </div>
