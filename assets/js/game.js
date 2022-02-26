@@ -1,4 +1,4 @@
-//Document Get Area
+//Document Get Variables
 const easyButton = document.getElementById('easy-btn');
 const moderateButton = document.getElementById('moderate-btn');
 const hardButton = document.getElementById('hard-btn');
