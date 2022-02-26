@@ -83,6 +83,27 @@ div a:hover{
   font-family: 'Courier New', Courier, monospace;
 }
 
+/*Tooltip Area*/
+.tooltip {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 50%;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #1a1a1a;
+  color: #e8e8e8;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
 /*Quiz Complete Area*/
 #quiz-complete{
   text-align: center;
