@@ -15,75 +15,76 @@
 <body>
   <!--Header Area-->
   <section id="main">
-  <div class="header">
-    <h1>Welcome to the Coder's Coding Challenge!</h1>
-    <h2>Are you ready to test your skills in HTML, CSS and JavaScript? This fun quiz will test your knowledge in three difficulties! Can you get 10/10 in each of them?</h2>
-  </div>
-  <!--Quiz Outer Container-->
-  <div class="quiz-container" id="quiz-container">
-    <a href="index.html" aria-label="Visit the home page" id="link-colour"><i class="fa-solid fa-code"></i></a>
-    <!--Username Area-->
-    <div id="username-area">
-      <h3>Please enter a username:</h3>
-      <form class="username" action="javascript:void(0)" onsubmit="startGame()">
-        <label for="username"></label>
-        <input type="text" id="username" placeholder="Please enter a username!" required>
-        <!--Tootip Information-->
-        <div class="tooltip">
-          <i class="fa-solid fa-circle-question"></i>
-          <p class="tooltip-text">Please ensure you are entering a username that ONLY contains letters or numbers, and is between 3-20 characters in length.</p>
+    <div class="header">
+      <h1>Welcome to the Coder's Coding Challenge!</h1>
+      <h2>Are you ready to test your skills in HTML, CSS and JavaScript? This fun quiz will test your knowledge in three difficulties! Can you get 10/10 in each of them?</h2>
+    </div>
+    <!--Quiz Outer Container-->
+    <div class="quiz-container" id="quiz-container">
+      <a href="index.html" aria-label="Visit the home page" id="link-colour"><i class="fa-solid fa-code"></i></a>
+      <!--Username Area-->
+      <div id="username-area">
+        <h3>Please enter a username:</h3>
+        <form class="username" action="javascript:void(0)" onsubmit="startGame()">
+          <label for="username"></label>
+          <input type="text" id="username" placeholder="Please enter a username!" required>
+          <!--Tootip Information-->
+          <div class="tooltip">
+            <i class="fa-solid fa-circle-question"></i>
+            <p class="tooltip-text">Please ensure you are entering a username that ONLY contains letters or numbers, and is between 3-20 characters in length.</p>
+          </div>
+          <!--Start Quiz Button-->
+          <button id="start-btn" class="btn">Start Quiz!</button>
+        </form>
+      </div>
+      <!--Quesiton Container Area-->
+      <div id="question-container" class="hide">
+        <!--Progress Bar Area-->
+        <div id="progress-container">
+          <p id="progress-text"></p>
+          <progress max="10" value="0" id="progress-bar"><span id="percentage"></span></progress>
         </div>
-        <button id="start-btn" class="btn">Start Quiz!</button>
-      </form>
-    </div>
-    <!--Quesiton Container Area-->
-    <div id="question-container" class="hide">
-      <!--Progress Bar Area-->
-      <div id="progress-container">
-        <p id="progress-text"></p>
-        <progress max="10" value="0" id="progress-bar"><span id="percentage"></span></progress>
+        <div id="question">Question Here</div>
+        <!--Answer Buttons-->
+        <div id="answer-btns" class="btn-grid"></div>
       </div>
-      <div id="question">Question Here</div>
-      <!--Answer Buttons-->
-      <div id="answer-btns" class="btn-grid"></div>
-    </div>
-    <!--Difficulty Area-->
-    <h3 id="difficulty" class="hide">Choose difficulty:</h3>
-    <!--Welcome User Area-->
-    <p id="welcome-user"></p>
-    <!--Quiz Completed Area-->
-    <div id="quiz-complete" class="hide">
-      <h3>Quiz completed!</h3>
-      <p id="quiz-complete-score"></p>
-    </div>
-    <!--Control Buttons-->
-    <div class="controls">
-      <button id="easy-btn" class="btn hide">Easy Mode</button>
-      <button id="moderate-btn" class="btn hide">Moderate Mode</button>
-      <button id="hard-btn" class="btn hide">Hard Mode</button>
-      <button id="next-btn" class="next-btn btn hide">Next Question</button>
-      <button id="restart-btn" class="restart-btn btn hide">Restart Quiz</button>
-    </div>
-    <!--Score Area-->
-    <div>
-      <div id="correct-score-div" class="score-font hide">Correct: <span id="correct-score">0</span></div>
-      <div id="incorrect-score-div" class="score-font hide">Incorrect: <span id="incorrect-score">0</span></div>
-      <div id="audio-control" class="audio-controls">
-        <div class="audio-on"><i class="fa-solid fa-volume-high"></i></i></div>
-        <div class="audio-off hide"><i class="fa-solid fa-volume-xmark"></i></i></div>
+      <!--Difficulty Area-->
+      <h3 id="difficulty" class="hide">Choose difficulty:</h3>
+      <!--Welcome User Area-->
+      <p id="welcome-user"></p>
+      <!--Quiz Completed Area-->
+      <div id="quiz-complete" class="hide">
+        <h3>Quiz completed!</h3>
+        <p id="quiz-complete-score"></p>
+      </div>
+      <!--Control Buttons-->
+      <div class="controls">
+        <button id="easy-btn" class="btn hide">Easy Mode</button>
+        <button id="moderate-btn" class="btn hide">Moderate Mode</button>
+        <button id="hard-btn" class="btn hide">Hard Mode</button>
+        <button id="next-btn" class="next-btn btn hide">Next Question</button>
+        <button id="restart-btn" class="restart-btn btn hide">Restart Quiz</button>
+      </div>
+      <!--Score Area-->
+      <div>
+        <div id="correct-score-div" class="score-font hide">Correct: <span id="correct-score">0</span></div>
+        <div id="incorrect-score-div" class="score-font hide">Incorrect: <span id="incorrect-score">0</span></div>
+        <div id="audio-control" class="audio-controls">
+          <div class="audio-on"><i class="fa-solid fa-volume-high"></i></div>
+          <div class="audio-off hide"><i class="fa-solid fa-volume-xmark"></i></div>
+        </div>
       </div>
     </div>
-  </div>
-  <!--Random Advice Area-->
-  <div id="random-advice">
-    <h4><i class="fa-solid fa-hand-holding-heart"></i> Random words to live by:</h4>
-    <p>
-      <i class="fa-solid fa-hand-fist"></i>
-      <p id="advice"></p>
-      <i class="fa-solid fa-hand-fist"></i>
-    </p>
-  </div>
-</section>
+    <!--Random Advice Area-->
+    <div id="random-advice">
+      <h4><i class="fa-solid fa-hand-holding-heart"></i> Random words to live by:</h4>
+      <p>
+        <i class="fa-solid fa-hand-fist"></i>
+        <p id="advice"></p>
+        <i class="fa-solid fa-hand-fist"></i>
+      </p>
+    </div>
+  </section>
   <!--Footer Area-->
   <footer id="footer">
     <div class="footer-links">
