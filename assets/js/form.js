@@ -1,5 +1,6 @@
 //Document Get Variables
 const form = document.getElementsByTagName('form')[0];
+const formSent = document.getElementById('form-sent');
 
 //Functions
 window.onload = function sendEmail(){
