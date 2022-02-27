@@ -23,7 +23,7 @@
   <!--Quiz Outer Container-->
   <div class="quiz-container">
     <!--Contact Form Area-->
-    <form id="contact-form">
+    <form id="contact-form" class="hide">
       <label for="name" class="form-label">Full Name:</label>
       <input type="text" class="form-input"  id="name" name="name" required>
       <label for="email" class="form-label">Email Address:</label>
@@ -33,6 +33,11 @@
       <input type="text" class="form-input" id="project" placeholder="Sent from CI_PP2_Coding_Challenege_Quiz" readonly>
       <button id="submit" type="submit" class="btn">Submit!</button>
     </form>
+    <div id="form-sent">
+      <h3>Thanks for submitting your message!</h3>
+      <img class="sent-img" src="assets/images/email_sent.png" alt="Image of artist designed computer and an email-letter with a symbol indicating a new notifcation">
+      <p>Your input is always greatly valued with here, thanks again and have a great day!</p>
+    </div>
   </div>
   <!--Return Home Button-->
   <button id="home-btn" class="btn">Return to the Quiz!</button>
