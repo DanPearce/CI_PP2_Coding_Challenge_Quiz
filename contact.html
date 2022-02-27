@@ -14,7 +14,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <title>Contact Us</title>
 </head>
-<body class="sent">
+<body>
   <!--Header Area-->
   <div class="header">
     <h1>Thanks for playing our game!</h1>
@@ -22,8 +22,10 @@
   </div>
   <!--Quiz Outer Container-->
   <div class="quiz-container">
+    <a href="index.html" aria-label="Visit the home page" id="link-colour"><i class="fa-solid fa-code"></i></a>
     <!--Contact Form Area-->
-    <form id="contact-form" class="hide">
+    <form id="contact-form">
+      <h3>Get in touch:</h3>
       <label for="name" class="form-label">Full Name:</label>
       <input type="text" class="form-input"  id="name" name="name" required>
       <label for="email" class="form-label">Email Address:</label>
@@ -33,14 +35,12 @@
       <input type="text" class="form-input" id="project" placeholder="Sent from CI_PP2_Coding_Challenege_Quiz" readonly>
       <button id="submit" type="submit" class="btn">Submit!</button>
     </form>
-    <div id="form-sent">
+    <div id="form-sent" class="hide">
       <h3>Thanks for submitting your message!</h3>
       <img class="sent-img" src="assets/images/email_sent.png" alt="Image of artist designed computer and an email-letter with a symbol indicating a new notifcation">
       <p>Your input is always greatly valued with here, thanks again and have a great day!</p>
     </div>
   </div>
-  <!--Return Home Button-->
-  <button id="home-btn" class="btn">Return to the Quiz!</button>
   <footer id="footer">
     <div class="footer-links">
       <a href="index.html" aria-label="Visit the home us page">Home</a>
