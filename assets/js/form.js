@@ -19,4 +19,6 @@ window.onload = function sendEmail(){
 
 function emailSent(){
   form.classList.add('hide');
+  formSent.classList.remove('hide');
+  document.body.classList.add('sent');
 }
