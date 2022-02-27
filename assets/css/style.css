@@ -8,6 +8,7 @@
   --bg-normal: 175;
   --bg-incorrect: 360;
   --bg-correct: 150;
+  --bg-sent: 179;
 }
 
 /*Main Body*/
@@ -39,6 +40,11 @@ body.correct {
 
 body.incorrect {
   --bg: var(--bg-incorrect);
+}
+
+body.sent {
+  --bg: var(--bg-sent);
+  background: hsl(var(--bg), 38%, 55%);
 }
 
 /*Header Area*/
@@ -313,6 +319,15 @@ textarea {
   background-color: #e8e8e8;
   color: #1a1a1a;
   font-family: 'Courier New', Courier, monospace;
+}
+
+  /*Form Sent Area*/
+#form-sent{
+  text-align: center;
+}
+
+.sent-img {
+  width: 40%;
 }
   /*Home Button*/
 #home-btn {
