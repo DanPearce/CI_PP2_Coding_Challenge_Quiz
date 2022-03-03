@@ -54,7 +54,7 @@ body.sent {
   height: 200px;
   text-align: center;
   margin: 0 5%;
-  color: #e8e8e8;
+  color: #1a1a1a;
 }
 
 h1 {
@@ -274,7 +274,7 @@ progress::-moz-progress-bar {
   top: 660px;
   text-align: center;
   margin-top: 5vh;
-  color: #e8e8e8;
+  color: #1a1a1a;
 }
 
 p#random-advice {
