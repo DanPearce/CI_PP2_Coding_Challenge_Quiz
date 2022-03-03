@@ -352,10 +352,10 @@ textarea {
   /*Screen sizes 1300px and smaller*/
   @media only screen and (max-width:1300px){
     body {
-      height: 1000px;
+      height: 1200px;
     }
     #random-advice {
-      top: 660px;
+      top: 800px;
     }
   }
 
@@ -371,12 +371,9 @@ textarea {
     height: 160px;
   }
   .quiz-container {
-    top: 130px;
+    top: 160px;
     margin: 20px auto 0 auto;
     width: 450px;
-  }
-  #random-advice {
-    top: 550px;
   }
 }
 
