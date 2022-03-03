@@ -313,7 +313,6 @@ footer a:hover {
 
 /*Contact Us Page*/
   /*Form Area*/
-
 form h3 {
   text-align: center;
 }
@@ -342,15 +341,18 @@ textarea {
 .sent-img {
   width: 40%;
 }
+
   /*Home Button*/
 #home-btn {
   position: absolute;
   margin-top: 480px;
 }
+
 /*404 Error Page*/
 #error-div img {
   width: 80%;
 }
+
 #error-div {
   text-align: center;
 }
@@ -383,6 +385,7 @@ textarea {
     width: 500px;
   }
 }
+
   /*Screen sizes 600px and smaller*/
 @media only screen and (max-width:600px){
   .quiz-container {
