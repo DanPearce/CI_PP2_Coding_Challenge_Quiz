@@ -358,11 +358,12 @@ textarea {
     font-size: 1rem;
   }
   .header {
-    height: 150px;
+    height: 160px;
   }
   .quiz-container {
     top: 130px;
     margin: 20px auto 0 auto;
+    width: 450px;
   }
   #random-advice {
     bottom: 130px;
