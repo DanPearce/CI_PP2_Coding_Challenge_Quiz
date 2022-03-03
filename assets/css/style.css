@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 1000px;
   font-family: 'Courier New', Courier, monospace;
   background-color: hsl(var(--bg), 100%, 30%);
 }
@@ -271,7 +271,7 @@ progress::-moz-progress-bar {
 /*Random Advice Area*/
 #random-advice {
   position: absolute;
-  top: 650px;
+  top: 660px;
   text-align: center;
   margin-top: 5vh;
   color: #e8e8e8;
