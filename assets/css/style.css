@@ -368,3 +368,37 @@ textarea {
     bottom: 130px;
   }
 }
+
+  /*Screen sizes 450px and smaller*/
+@media only screen and (max-width: 450px){
+  body {
+    height: 900px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 0.75rem;
+  }
+  .quiz-container {
+    width: 250px;
+  }
+  div a, #difficulty, #question, #welcome-user, .btn, .answer-btn, .next-btn, .restart-btn, .audio-controls, h3, #username, #progress-text, #correct-score-div, #incorrect-score-div {
+    font-size: 0.75rem;
+  }
+  .btn-grid {
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+  #random-advice {
+    top: 650px;
+    font-size: 0.75rem;
+  }
+  #footer{
+    font-size: 0.5rem;
+    height: auto;
+  }
+  footer a {
+    font-size: 0.75rem;
+  }
+}
