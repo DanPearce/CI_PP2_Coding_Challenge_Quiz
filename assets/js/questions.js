@@ -96,12 +96,12 @@ const questionsEasy = [
 //Moderate Questions
 const questionsModerate = [
   {
-    question: 'Which of the following is true about the "video" element in HTML5?',
+    question: 'Which input type defines a slider control in HTML5?',
     answers: [
-      { text: 'HTML5 supports the tag which is used to embed a video file in an HTML or XHTML document.', correct: false },
-      { text: 'The current HTML5 draft specification does not specify which video formats browsers should support in the video tag.', correct: false },
-      { text: 'Ogg files with Theodora video codec and Vorbis audio codec are supported.', correct: false },
-      { text: 'All of the above.', correct: true }
+      { text: 'Controls', correct: false },
+      { text: 'Search', correct: false },
+      { text: 'Slider', correct: false },
+      { text: 'Range', correct: true }
     ]
   },
   {
