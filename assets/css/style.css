@@ -393,7 +393,8 @@ textarea {
   /*Screen sizes 450px and smaller*/
 @media only screen and (max-width: 450px){
   body {
-    height: 900px;
+    height: 1000px;
+    text-align: center;
   }
   h1 {
     font-size: 1rem;
@@ -412,7 +413,7 @@ textarea {
     gap: 10px;
   }
   #random-advice {
-    top: 650px;
+    top: 700px;
     font-size: 0.75rem;
   }
   #footer{
