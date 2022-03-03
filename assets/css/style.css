@@ -347,3 +347,24 @@ textarea {
   position: absolute;
   margin-top: 480px;
 }
+
+/*Responsive Design*/
+  /*Screen sizes 850px and smaller*/
+@media only screen and (max-width:850px){
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .header {
+    height: 150px;
+  }
+  .quiz-container {
+    top: 130px;
+    margin: 20px auto 0 auto;
+  }
+  #random-advice {
+    bottom: 130px;
+  }
+}
