@@ -376,6 +376,12 @@ textarea {
     width: 500px;
   }
 }
+  /*Screen sizes 600px and smaller*/
+@media only screen and (max-width:600px){
+  .quiz-container {
+    width: 400px;
+  }
+}
 
   /*Screen sizes 450px and smaller*/
 @media only screen and (max-width: 450px){
