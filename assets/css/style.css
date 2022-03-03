@@ -271,7 +271,7 @@ progress::-moz-progress-bar {
 /*Random Advice Area*/
 #random-advice {
   position: absolute;
-  bottom: 150px;
+  top: 650px;
   text-align: center;
   margin-top: 5vh;
   color: #e8e8e8;
