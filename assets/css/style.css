@@ -347,6 +347,13 @@ textarea {
   position: absolute;
   margin-top: 480px;
 }
+/*404 Error Page*/
+#error-div img {
+  width: 80%;
+}
+#error-div {
+  text-align: center;
+}
 
 /*Responsive Design*/
   /*Screen sizes 1300px and smaller*/
