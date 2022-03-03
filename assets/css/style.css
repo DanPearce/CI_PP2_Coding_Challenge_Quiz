@@ -349,6 +349,16 @@ textarea {
 }
 
 /*Responsive Design*/
+  /*Screen sizes 1300px and smaller*/
+  @media only screen and (max-width:1300px){
+    body {
+      height: 1000px;
+    }
+    #random-advice {
+      top: 660px;
+    }
+  }
+
   /*Screen sizes 850px and smaller*/
 @media only screen and (max-width:850px){
   h1 {
