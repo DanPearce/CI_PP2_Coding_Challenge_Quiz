@@ -279,7 +279,7 @@ progress::-moz-progress-bar {
 
 p#random-advice {
   max-width: 80%;
-  
+  margin: 0 5%;
 }
 
 /*Footer and Links*/
