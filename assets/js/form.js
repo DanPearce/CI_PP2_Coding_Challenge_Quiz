@@ -3,6 +3,9 @@ const form = document.getElementsByTagName('form')[0];
 const formSent = document.getElementById('form-sent');
 
 //Functions
+/**
+ * Initiates the emailJS script and sends the content of the form to my account via their service.
+ */
 window.onload = function sendEmail(){
   document.getElementById('contact-form').addEventListener('submit', function(event){
     event.preventDefault();
@@ -17,6 +20,9 @@ window.onload = function sendEmail(){
   });
 }
 
+/**
+ * Removes the form from the screen and loads the 'sent' section to display to the user that their message has been sent.
+ */
 function emailSent(){
   form.classList.add('hide');
   formSent.classList.remove('hide');

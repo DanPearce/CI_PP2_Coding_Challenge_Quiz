@@ -42,6 +42,10 @@ const maxQuestion = 10;
 let questionValue = 0;
 
 //Functions
+/**
+ * Brings the user to the 'game-difficulty' page if they have entered a valid username - 
+ * then welcomes the user with their entered username.
+ */
 function startGame(){
   if (username.value.match(regExp) && username.value != "" && username.value != null && username.value != undefined){
     usernameArea.classList.add('hide');
@@ -59,6 +63,10 @@ function startGame(){
   playClickAudio();
 }
 
+/**
+ * Called when 'Easy Mode' is clicked, this then removes all other elements from the screen, shuffles the easy questions
+ * and displays the question.
+ */
 function startGameEasy(){
   console.log("Game Started!");
   correctScore.classList.remove('hide');
@@ -75,6 +83,10 @@ function startGameEasy(){
   nextQuestion();
 }
 
+/**
+ * Called when 'Moderate Mode' is clicked, this then removes all other elements from the screen, shuffles the moderate questions
+ * and displays the question.
+ */
 function startGameModerate(){
   console.log("Game Started!");
   correctScore.classList.remove('hide');
@@ -91,6 +103,10 @@ function startGameModerate(){
   nextQuestion();
 }
 
+/**
+ * Called when 'Hard Mode' is clicked, this then removes all other elements from the screen, shuffles the hard questions
+ * and displays the question.
+ */
 function startGameHard(){
   console.log("Game Started!");
   correctScore.classList.remove('hide');
@@ -107,12 +123,20 @@ function startGameHard(){
   nextQuestion();
 }
 
+/**
+ * Changes the inner HTML of the progress bar depending on which question in the cylce we're currently on
+ * incrementing by one as each question comes.
+ * @param {The current question value as an integer} qV 
+ */
 function questionProgressCounter(qV) {
   percentage.innerHTML = `${questionValue}%`
   questionValue++;
   progressBar.value = questionValue;
 }
 
+/**
+ * When called this function sets the next question.
+ */
 function nextQuestion(){
   resetQuestion();
   showQuestion(shuffleQuestions[currentQuestion]);
@@ -120,6 +144,11 @@ function nextQuestion(){
   playClickAudio();
 }
 
+/**
+ * Sets the question innerText to the current question in the array, this also then takes all the answers in the array and displays,
+ * if the answer has the value correct the correct dataset will be added to it.
+ * @param {Current question in the array} question 
+ */
 function showQuestion(question){
   progressText.innerText = `Question ${currentQuestion + 1}/${maxQuestion}`
   getQuestion.innerText = question.question;
@@ -135,6 +164,9 @@ function showQuestion(question){
   })
 }
 
+/**
+ * Resets the game back to a clear area so that the next question can be displayed with no errors
+ */
 function resetQuestion(){
   removeAnswerClickedClass(document.body);
   nextButton.classList.add('hide');
@@ -143,6 +175,13 @@ function resetQuestion(){
   }
 }
 
+/**
+ * Depending on which answer was clicked, this function will display to the user if they got their answer correct or wrong,
+ * doing this in various ways notablely calling the audio and setting the background colour.
+ * This function also checks to see if there are any more questions to be called, if there are displays the nextQuestion button,
+ * if not calls the end of the quiz area and displays the users score with a custom end screen.
+ * @param {Click event} e 
+ */
 function answerClicked(e){
   const selectedAnswer = e.target;
   const correct = selectedAnswer.dataset.correct;
@@ -212,6 +251,11 @@ function answerClicked(e){
   disableAnswerButtons();
 }
 
+/**
+ * Adds the relevent class to each element depending on whether they got the answer correct or not.
+ * @param {Element being the element in html (body or button)} element 
+ * @param {If the value correct was === to answerClicked} correct 
+ */
 function setAnswerClickedClass(element, correct){
   removeAnswerClickedClass(element);
   if (correct){
@@ -221,26 +265,42 @@ function setAnswerClickedClass(element, correct){
   }
 }
 
+/**
+ * Removes all classes so that the page can reset back to normal.
+ * @param {Element being the element in html (body or button)} element 
+ */
 function removeAnswerClickedClass(element){
   element.classList.remove('correct');
   element.classList.remove('incorrect');
 }
 
+/**
+ * Increments the correct-score by 1 if they got the answer correct.
+ */
 function incrementScore(){
   let oldScore = parseInt(document.getElementById('correct-score').innerText);
   document.getElementById('correct-score').innerText = ++oldScore;
 }
 
+/**
+ * Increments the incorrect-scorre by 1 if they got the answer incorrect.
+ */
 function incrementIncorrectScore(){
   let oldScore = parseInt(document.getElementById('incorrect-score').innerText);
   document.getElementById('incorrect-score').innerText = ++oldScore;
 }
 
+/**
+ * Resets the game by reloading the page
+ */
 function newGame(){
   playClickAudio();
   document.location.reload();
 }
 
+/**
+ * Disables the answerButtons after an answer has been clicked, to prevent the score being manipulated and the game from breaking
+ */
 function disableAnswerButtons() {
   let disableButtons = document.getElementsByClassName('answer-btn');
   for (let i = 0; i < disableButtons.length; i++){
