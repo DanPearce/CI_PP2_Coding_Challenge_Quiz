@@ -29,7 +29,7 @@ nextButton.addEventListener('click', () =>{
   currentQuestion++;
   nextQuestion();
   playClickAudio();
-})
+});
 restartButton.addEventListener('click', newGame);
 startButton.addEventListener('click', startGame);
 
@@ -76,7 +76,7 @@ function startGameEasy(){
   hardButton.classList.add('hide');
   chooseDifficulty.classList.add('hide');
   welcomeUser.classList.add('hide');
-  shuffleQuestions = questionsEasy.sort(() => Math.random() - .5);
+  shuffleQuestions = questionsEasy.sort(() => Math.random() - 0.5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
   playClickAudio();
@@ -96,7 +96,7 @@ function startGameModerate(){
   hardButton.classList.add('hide');
   chooseDifficulty.classList.add('hide');
   welcomeUser.classList.add('hide');
-  shuffleQuestions = questionsModerate.sort(() => Math.random() - .5);
+  shuffleQuestions = questionsModerate.sort(() => Math.random() - 0.5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
   playClickAudio();
@@ -116,7 +116,7 @@ function startGameHard(){
   hardButton.classList.add('hide');
   chooseDifficulty.classList.add('hide');
   welcomeUser.classList.add('hide');
-  shuffleQuestions = questionsHard.sort(() => Math.random() - .5);
+  shuffleQuestions = questionsHard.sort(() => Math.random() - 0.5);
   currentQuestion = 0;
   questionContainer.classList.remove('hide');
   playClickAudio();
@@ -129,7 +129,7 @@ function startGameHard(){
  * @param {The current question value as an integer} qV 
  */
 function questionProgressCounter(qV) {
-  percentage.innerHTML = `${questionValue}%`
+  percentage.innerHTML = `${questionValue}%`;
   questionValue++;
   progressBar.value = questionValue;
 }
@@ -150,7 +150,7 @@ function nextQuestion(){
  * @param {Current question in the array} question 
  */
 function showQuestion(question){
-  progressText.innerText = `Question ${currentQuestion + 1}/${maxQuestion}`
+  progressText.innerText = `Question ${currentQuestion + 1}/${maxQuestion}`;
   getQuestion.innerText = question.question;
   question.answers.forEach(answer => {
     const button = document.createElement('button');
@@ -161,7 +161,7 @@ function showQuestion(question){
     }
     button.addEventListener('click', answerClicked);
     answerButtonsDiv.appendChild(button);
-  })
+  });
 }
 
 /**
@@ -188,11 +188,11 @@ function answerClicked(e){
   if (correct){
     playCorrectAudio();
     incrementScore();
-    console.log("Correct!")
+    console.log("Correct!");
   } else {
     playIncorrectAudio();
     incrementIncorrectScore();
-    console.log("Whoops! Incorrect!")
+    console.log("Whoops! Incorrect!");
   }
   setAnswerClickedClass(document.body, correct);
   Array.from(answerButtonsDiv.children).forEach(button =>{

@@ -13,12 +13,12 @@ window.onload = function sendEmail(){
     emailjs.sendForm('danpearcesoftware', 'template_q6jr6d9', this)
     .then(function(){
       console.log('Email Sent Successfully');
-    }), function(error){
+    }, function(error){
       console.log('Failed..', error);
-    }
+    });
     emailSent();
   });
-}
+};
 
 /**
  * Removes the form from the screen and loads the 'sent' section to display to the user that their message has been sent.

@@ -10,7 +10,7 @@ let audioControls = document.getElementsByClassName('audio-controls');
 for (let i = 0; i < audioControls.length; i++){
   audioControls[i].addEventListener('click', () =>{
     audioControl();
-  })
+  });
 }
 
 //Functions

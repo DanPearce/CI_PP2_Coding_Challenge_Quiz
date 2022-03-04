@@ -91,7 +91,7 @@ const questionsEasy = [
       { text: '.javascript', correct: false }
     ]
   }
-]
+];
 
 //Moderate Questions
 const questionsModerate = [
@@ -185,7 +185,7 @@ const questionsModerate = [
       { text: 'None of the above', correct: false }
     ]
   }
-]
+];
 
 //Hard Questions
 const questionsHard = [
@@ -279,4 +279,4 @@ const questionsHard = [
       { text: 'arr[arr.length-1] = value', correct: false }
     ]
   }
-]
+];
