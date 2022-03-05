@@ -50,10 +50,13 @@ body.sent {
 /*Header Area*/
 .header {
   position: absolute;
+  justify-content: center;
+  align-items: center;
   top: 0;
+  width: 90%;
   height: 200px;
   text-align: center;
-  margin: 0 5%;
+  margin: 0 auto 10 auto;
   color: #1a1a1a;
 }
 
