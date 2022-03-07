@@ -27,7 +27,7 @@ The site has been designed with simplicity in mind allowing the main focus to be
 4. [Main Features](#main-features)
 5. [Technologies](#technologies)
     - [Languages](#languages)
-    - [API](#api)
+    - [APIs](#apis)
     - [Frameworks and Other Technologies](#frameworks-and-other-technologies)
 6. [Validation and Testing](#validation-and-testing)
     - [HTML Validation](#html-validation)
@@ -300,3 +300,23 @@ The 404 error page provides a fall back for the user should they enter an incorr
 <details><summary>404 Error Page</summary>
 <img src="docs/features/feature-404-page.png">
 </details>
+
+## Technologies
+
+### Languages
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### APIs
+- [Advice Slip](https://api.adviceslip.com/)
+
+### Frameworks and Other Technologies
+- [GitHub](https://github.com/)
+- [GitPod](https://www.gitpod.io/)
+- [Font Awesome](https://fontawesome.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+- [Google Fonts](https://fonts.google.com/)
+- [Favicon.io](https://favicon.io/)
+- [Tiny PNG](https://tinypng.com/)
