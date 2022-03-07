@@ -110,6 +110,30 @@ The contact us page is the only other 'main' page on the site and uses the desig
 This page has been implemented to provide a fall back in case of input error to the URL to ensure the user can remain on the site. Agian keeping the same design structure from the main quiz.
 
 ### Wireframes
+<details><summary>Index Page</summary>
+<img src="docs/design/wireframes/index.png">
+</details>
+<details><summary>Welcome/Difficulty</summary>
+<img src="docs/design/wireframes/welcome-difficulty.png">
+</details>
+<details><summary>Main Quiz</summary>
+<img src="docs/design/wireframes/quiz-area.png">
+</details>
+<details><summary>Next Question/Answers Revealed</summary>
+<img src="docs/design/wireframes/next-question.png">
+</details>
+<details><summary>End of Quiz</summary>
+<img src="docs/design/wireframes/quiz-end.png">
+</details>
+<details><summary>Contact Us Page</summary>
+<img src="docs/design/wireframes/form.png">
+</details>
+<details><summary>Form Sent</summary>
+<img src="docs/design/wireframes/form-sent.png">
+</details>
+<details><summary>404 Error</summary>
+<img src="docs/design/wireframes/404-error.png">
+</details>
 
 ### Colour
 

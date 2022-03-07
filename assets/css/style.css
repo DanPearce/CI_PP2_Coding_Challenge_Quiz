@@ -22,7 +22,7 @@ body {
   width: 100vw;
   height: 1000px;
   font-family: 'Courier New', Courier, monospace;
-  background-color: hsl(var(--bg), 100%, 30%);
+  background-color: hsl(var(--bg), 100%, 38%);
 }
 
 /*Main Body Section*/
@@ -36,6 +36,7 @@ body {
 /*Function change background - links to JavaScript to change depending on correct/wrong answer*/
 body.correct {
   --bg: var(--bg-correct);
+  background: hsl(var(--bg-correct), 100%, 39%);
 }
 
 body.incorrect {
@@ -47,8 +48,16 @@ body.sent {
   background: hsl(var(--bg), 38%, 55%);
 }
 
+#header.incorrect {
+  color: #e8e8e8;
+}
+
+#random-advice.incorrect {
+  color: #e8e8e8;
+}
+
 /*Header Area*/
-.header {
+#header {
   position: absolute;
   justify-content: center;
   align-items: center;

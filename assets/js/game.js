@@ -20,6 +20,8 @@ const progressText = document.getElementById('progress-text');
 const progressBar = document.getElementById('progress-bar');
 const percentage = document.getElementById('percentage');
 const progressDiv = document.getElementById('progress-container');
+const incorrectHeader = document.getElementById('header');
+const incorrectAdvice = document.getElementById('random-advice');
 
 //Event Listeners
 easyButton.addEventListener('click', startGameEasy);
@@ -195,6 +197,8 @@ function answerClicked(e){
     console.log("Whoops! Incorrect!");
   }
   setAnswerClickedClass(document.body, correct);
+  setAnswerClickedClass(incorrectAdvice, correct);
+  setAnswerClickedClass(incorrectHeader, correct);
   Array.from(answerButtonsDiv.children).forEach(button =>{
     setAnswerClickedClass(button, button.dataset.correct);
   });
