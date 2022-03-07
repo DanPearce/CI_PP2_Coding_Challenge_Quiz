@@ -84,10 +84,10 @@ The site has been designed with simplicity in mind allowing the main focus to be
 
 ### Website Owner
 8. As an owner, I want to provide a site that is fully responsive for all users.
-10. As an owner, I want the user to be notified when they have scored correctly/incorrectly. 
-11. As an owner, I want to allow the user to send feedback directly to me about the site.
-12. As an owner, I want the user to be aware of our social media presence at all times.
-13. As an owner, I want the user to easily navigate back to the main quiz page should enter an incorrect URL.
+9. As an owner, I want the user to be notified when they have scored correctly/incorrectly. 
+10. As an owner, I want to allow the user to send feedback directly to me about the site.
+11. As an owner, I want the user to be aware of our social media presence at all times.
+12. As an owner, I want the user to easily navigate back to the main quiz page should enter an incorrect URL.
 
 ## Design 
 
@@ -400,4 +400,102 @@ The project was tested and viewed on the following browsers with no errors:
 - [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
 - [Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox)
 - [Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
-- [Apple Safari](https://en.wikipedia.org/wiki/Safari_(web_browser)) 
+- [Apple Safari](https://en.wikipedia.org/wiki/Safari_(web_browser))
+
+### User Story Testing 
+
+| **User Story 1** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As a user, I want to be able to test my knowledge in HTML, CSS, and JavaScript with an ineractive quiz. | a | b | c |
+
+<details><summary>User Story 1 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1.png">
+</details>
+
+| **User Story 2** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As a user, I want to be able to choose the level of difficulty I want to be tested at. | a | b | c |
+
+<details><summary>User Story 2 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.png">
+</details>
+
+| **User Story 3** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As a user, I want to be able to distingish between when I got an answer correct or an answer incorrect. | a | b | c |
+
+<details><summary>User Story 3 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-3.png">
+</details>
+
+| **User Story 4** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As a user, I want to know which answer was correct should I get the answer incorrect. | a | b | c |
+
+<details><summary>User Story 4 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-4.png">
+</details>
+
+| **User Story 5** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As a user, I want to be provided with a tally of the score I have recieved. | a | b | c |
+
+<details><summary>User Story 5 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-5.png">
+</details>
+
+| **User Story 6** | **Main Feature** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As a user, I want to be able to turn the sound off should I want to. | a | b | c |
+
+<details><summary>User Story 6 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-6png">
+</details>
+
+| **User Story 7** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As a user, I want to provide feedback to the owner, and be informed that said feedback has been sent. | a | b | c |
+
+<details><summary>User Story 7 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-7.png">
+</details>
+
+| **User Story 8** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As an owner, I want to provide a site that is fully responsive for all users. | a | b | c |
+
+<details><summary>User Story 8 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-8.png">
+</details>
+
+| **User Story 9** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As an owner, I want the user to be notified when they have scored correctly/incorrectly. | a | b | c |
+
+<details><summary>User Story 9 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-9.png">
+</details>
+
+| **User Story 10** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As an owner, I want to allow the user to send feedback directly to me about the site. | a | b | c |
+
+<details><summary>User Story 10 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-10.png">
+</details>
+
+| **User Story 11** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As an owner, I want the user to be aware of our social media presence at all times. | a | b | c |
+
+<details><summary>User Story 11 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-11.png">
+</details>
+
+| **User Story 12** | **User Action** | **Desired Outcome** | **Actual Outcome** |
+|----------------|------------------|---------------------|--------------------|
+| As an owner, I want the user to easily navigate back to the main quiz page should enter an incorrect URL. | a | b | c |
+
+<details><summary>User Story 12 Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-11.png">
+</details>
