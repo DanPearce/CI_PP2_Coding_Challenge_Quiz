@@ -176,3 +176,127 @@ I used [favicon.io](https://favicon.io/) to create the favicon icons for the sit
 Icons from [Font Awesome](https://fontawesome.com/) we're also used throughout the site, notably the home button on the quiz, the sound controls and the social media links also.
 
 ## Main Features
+The features of this website are all combined to create a fully functioning quiz with added sounds and colours to create an interactive experience for all. 
+
+### Header 
+At the top of the webpage the header is prominent and gives the consumer a welcome message and underneath details the use of the current page that they are on. The header is changed depending on which page they are currently on and this allows the user to understand what each page does.
+<details><summary>Header Index Page</summary>
+<img src="docs/features/feature-header.png">
+</details>
+<details><summary>Header Contact Us Page</summary>
+<img src="docs/features/feature-header-contact.png">
+</details>
+<details><summary>Header 404 Error Page</summary>
+<img src="docs/features/feature-header-404.png">
+</details>
+
+### Username 
+The site implements the use of a username! The user is prompted to enter a username upon the page opening - which is then used to welcome the user on the next page. This username is also displayed at the end of the quiz to inform the user of their score.
+<details><summary>Username Entry</summary>
+<img src="docs/features/feature-username.png">
+</details>
+<details><summary>Welcome User</summary>
+<img src="docs/features/feature-username-welcome.png">
+</details>
+<details><summary>User with Score</summary>
+<img src="docs/features/feature-username-end-game.png">
+</details>
+
+### Game Modes 
+The game allows the user to decide which level of questions they would like to be challenged with in the quiz. This is avaliable immediatly after they enter a username and comes in Easy, Moderate and Hard and the questions will change accordingly.
+<details><summary>Game Modes</summary>
+<img src="docs/features/feature-game-modes.png">
+</details>
+
+### Main Game and Game Controls
+Upon deciding which game mode to play, the user will be brought to the first question which is shuffled randomly to make the game slightly harder if replaying. 
+
+#### Main Game
+The functionality is simple, the user has to pick an answer out of four choices.
+<details><summary>Main Game</summary>
+<img src="docs/features/feature-main.png">
+</details>
+
+#### Question Counter
+At the top of the quiz section the quiz counter can be seen providing the user a visual counter on how far through the quiz they are and also providing a numerical counter too.
+<details><summary>Question Counter</summary>
+<img src="docs/features/feature-question-counter.png">
+</details>
+
+#### Correct and Incorrect Answers
+The user will pick an answer and depedning on whether they got it correct or not the game will give several visual clues to support the answer they picked.
+
+The buttons will all change colour including the one they selected; the correct one will be green and the incorrect ones will be red.
+<details><summary>Buttons Answer Clicked</summary>
+<img src="docs/features/feature-questions-correct-wrong.png">
+</details>
+
+The main body will change to green if they chose the correct answer.
+<details><summary>Correct Body</summary>
+<img src="docs/features/feature-correct-body.png">
+</details>
+
+The main body will change to red if they chose an incorrect answer.
+<details><summary>Incorrect Body</summary>
+<img src="docs/features/feature-incorrect-body.png">
+</details>
+
+#### Score 
+The score is featured near the bottom of the quiz container. The correct/incorrect score will increment depending on which answer the user clicks.
+<details><summary>Score Area</summary>
+<img src="docs/features/feature-score-area.png">
+</details>
+<details><summary>Score Example</summary>
+<img src="docs/features/feature-score.png">
+</details>
+
+#### Audio Controls
+Throughout the game there are several audio cues that play when buttons are clicked and answers have been clicked. In order to control the audio there is an implemented audio symbol that allows the user to turn audio on or off.
+<details><summary>Audio On</summary>
+<img src="docs/features/feature-audio-controls.png">
+</details>
+<details><summary>Audio Off</summary>
+<img src="docs/features/feature-audio-controls-off.png">
+</details>
+
+#### End Game
+At the end of the quiz the user is shown their result and is also given a personalised message depending on which result they got.
+<details><summary>End Game</summary>
+<img src="docs/features/feature-end-game.png">
+</details>
+
+### Random Advice API
+Underneath the quiz the user is dispalyed a random peice of advice, generated from the random advice API.
+<details><summary>Random Advice API</summary>
+<img src="docs/features/feature-api.png">
+</details>
+
+### Footer
+At the bottom of each page the footer is fixed into place to provide the user a form of consistent navigation between the pages - and to showcase the social media links
+<details><summary>Footer</summary>
+<img src="docs/features/feature-footer.png">
+</details> 
+
+### Contact Us Page 
+The site features a contact us page which uses the same styling as the home page.
+<details><summary>Contact Us Page</summary>
+<img src="docs/features/feature-contact-page.png">
+</details>
+
+#### Form 
+The contact form area allows the user to input their details and a message that will be sent directly to the owner.
+<details><summary>Form Area</summary>
+<img src="docs/features/feature-contact-form.png">
+</details>
+
+#### Form Sent
+Once the contact form has been submitted successfully the user is displayed with a new message which informs them it has been sent successfully.
+<details><summary>Form Sent</summary>
+<img src="docs/features/feature-form-sent.png">
+</details>
+
+### 404 Error Page
+The 404 error page provides a fall back for the user should they enter an incorrect URL extension to the website. The page features an image with relating text and a button for the user to navigate home.
+<details><summary>404 Error Page</summary>
+<img src="docs/features/feature-404-page.png">
+</details>
