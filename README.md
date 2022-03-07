@@ -47,23 +47,23 @@ The site has been designed with simplicity in mind allowing the main focus to be
 
 ## Site Goals and Consumer Experience
 
-###Consumer Goals
+### Consumer Goals
 - Easily navigate around the quiz.
 - Easily distinguish between a correct and incorrect answer.
 - Test their skills in HTML, CSS and JavaScript.
 - Contact the website owner for suggestions/errors.
 
-###Website Owner Goals
+### Website Owner Goals
 - Provide the consumer feedback on how they scored throughout and at the end of the game.
 - Provide an experience that is fully responsive.
 - Provide a point of contact so that the consumer can contact about bugs or future devlopments.
 
-###Target Audience
+### Target Audience
 - Beginner/Moderate students or casual coders who wish to test their skills in these languages.
 - Students/coder's that like to be tested through a quiz.
 - Anyone with an interest in coding, looking to test and expand their knowledge.
 
-###Consumer Expectations
+### Consumer Expectations
 - A fully responsive site that can be accessed on all devices without error.
 - Easily distinguishable sections and design.
 - An interactive fun game experience with ease of use in mind.
@@ -71,4 +71,4 @@ The site has been designed with simplicity in mind allowing the main focus to be
 - Fully functioning links with no pages that lead to errors or dead links.
 - Accessibility throughout the website.
 
-##User Stories
+## User Stories
