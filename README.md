@@ -72,3 +72,19 @@ The site has been designed with simplicity in mind allowing the main focus to be
 - Accessibility throughout the website.
 
 ## User Stories
+
+### User
+1. As a user, I want to be able to test my knowledge in HTML, CSS, and JavaScript with an ineractive quiz.
+2. As a user, I want to be able to choose the level of difficulty I want to be tested at.
+3. As a user, I want to be able to distingish between when I got an answer correct or an answer incorrect.
+4. As a user, I want to know which answer was correct should I get the answer incorrect.
+5. As a user, I want to be provided with a tally of the score I have recieved.
+6. As a user, I want to be able to turn the sound off should I want to.
+7. As a user, I want to provide feedback to the owner, and be informed that said feedback has been sent.
+
+### Website Owner
+8. As an owner, I want to provide a site that is fully responsive for all users.
+10. As an owner, I want the user to be notified when they have scored correctly/incorrectly. 
+11. As an owner, I want to allow the user to send feedback directly to me about the site.
+12. As an owner, I want the user to be aware of our social media presence at all times.
+13. As an owner, I want the user to easily navigate back to the main quiz page should enter an incorrect URL.
