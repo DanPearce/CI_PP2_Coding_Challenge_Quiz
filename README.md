@@ -320,6 +320,7 @@ The 404 error page provides a fall back for the user should they enter an incorr
 - [Google Fonts](https://fonts.google.com/)
 - [Favicon.io](https://favicon.io/)
 - [Tiny PNG](https://tinypng.com/)
+- [Email JS](https://www.emailjs.com/)
 
 ## Validation and Testing
 
@@ -382,3 +383,21 @@ The [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was use
 <details><summary>404 Error Page Performance</summary>
 <img src="docs/validation/lighthouse-validation/lighthouse-404.png">
 </details>
+
+### Device and Browser Compatibility 
+
+#### Device Testing
+This website and game was tested on numerous devices all of which result with full functionality and no visual issues the devices I tested on were as followed:
+- MacBook Pro 16-inch 
+- Desktop PC with 32-inch screen.
+- iPhone 12 Pro
+- iPad Pro 11inch
+- Microsoft Surface Pro 3
+- This site was also tested on all defeault Google Chrome Developer Tool screen sizes.
+
+#### Browser Compatibility
+The project was tested and viewed on the following browsers with no errors:
+- [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
+- [Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox)
+- [Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
+- [Apple Safari](https://en.wikipedia.org/wiki/Safari_(web_browser)) 
