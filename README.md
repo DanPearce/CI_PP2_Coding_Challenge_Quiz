@@ -136,6 +136,36 @@ This page has been implemented to provide a fall back in case of input error to 
 </details>
 
 ### Colour
+The colouring of the site has been kept simple to make it clear to user's when they're on a normal page, when the have answered correctly, when they have answered incorrectly and when they have successfully sent a message using the form. This has been achieved by changing the background colour of the body through JavaScript.
+<details><summary>Colour Palette</summary>
+<img src="docs/design/colour/colour.png">
+</details>
+
+All of the pages were tested in terms of contrast using [WebAIM](https://webaim.org/)
+
+#### Normal Contrast
+The normal colour for the site is a turquoise colour and this is to distinguish to the user that this is neither a correct or incorrect page.
+<details><summary>Normal Contrast</summary>
+<img src="docs/design/colour/normal-contrast.png">
+</details>
+
+#### Correct Contrast
+When a correct answer is clicked a green background is used.
+<details><summary>Correct Contrast</summary>
+<img src="docs/design/colour/correct-contrast.png">
+</details>
+
+#### Incorrect Contrast
+When an incorrect answer is clicked a red background is used and the font colour is change to a whiter colour.
+<details><summary>Incorrect Contrast</summary>
+<img src="docs/design/colour/incorrect-contrast.png">
+</details>
+
+#### Form Sent Contrast
+When the form has been sent, the background colour is changed to match the image used.
+<details><summary>Form Sent Contrast</summary>
+<img src="docs/design/colour/form-sent-contrast.png">
+</details>
 
 ### Font
 
