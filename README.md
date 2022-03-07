@@ -320,3 +320,65 @@ The 404 error page provides a fall back for the user should they enter an incorr
 - [Google Fonts](https://fonts.google.com/)
 - [Favicon.io](https://favicon.io/)
 - [Tiny PNG](https://tinypng.com/)
+
+## Validation and Testing
+
+### HTML Validation 
+The HTML has been tested using the [W3C Markup Validation Service](https://validator.w3.org/) in order validate the correct function of this site. All pages have passed with no errors or warnings.
+<details><summary>Index Page Validation</summary>
+<img src="docs/validation/html-validation/html-validator-index.png">
+</details>
+<details><summary>Contact Us Page Validation</summary>
+<img src="docs/validation/html-validation/html-validator-contact.png">
+</details>
+<details><summary>404 Error Page Validation</summary>
+<img src="docs/validation/html-validation/html-validator-404.png">
+</details>
+
+### CSS Validation
+The [W3C Jigsaw Validation Service](https://jigsaw.w3.org/css-validator/) has been used to test the CSS of this website. The CSS has passed with no errors.
+<details><summary>CSS Validation</summary>
+<img src="docs/validation/css-validation/css-validator.png">
+</details>
+
+### JavaScript Validation
+[JSHint](https://jshint.com/) was used to test the JavaScript of this site and all js files have passed with no errors.
+<details><summary>Game JS Validation</summary>
+<img src="docs/validation/js-validation/jshint-validator-game.png">
+</details>
+<details><summary>Audio Js Validation</summary>
+<img src="docs/validation/js-validation/jshint-validator-audio.png">
+</details>
+<details><summary>Form JS Validation</summary>
+<img src="docs/validation/js-validation/jshint-validator-form.png">
+</details>
+<details><summary>Random Advice JS Validation</summary>
+<img src="docs/validation/js-validation/jshint-validator-random-advice.png">
+</details>
+<details><summary>Questions JS Validation</summary>
+<img src="docs/validation/js-validation/jshint-validator-questions.png">
+</details>
+
+### Accessibility Validation
+The [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to test the accessibility function of the website, all pages have passed with no errors.
+<details><summary>Index Page WAVE Validation</summary>
+<img src="docs/validation/wave-validation/wave-validator-index.png">
+</details>
+<details><summary>Contact Us Page WAVE Validation</summary>
+<img src="docs/validation/wave-validation/wave-validator-contact.png">
+</details>
+<details><summary>404 Error Page WAVE Validation</summary>
+<img src="docs/validation/wave-validation/wave-validator-404.png">
+</details>
+
+### Performance Validation
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) in the Google Chrome Developer Tools was used to test the performance of the website and all pages have passed with a green score.
+<details><summary>Index Page Performance</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-index.png">
+</details>
+<details><summary>Contact US Page Performance</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-contact.png">
+</details>
+<details><summary>404 Error Page Performance</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-404.png">
+</details>
