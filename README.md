@@ -24,7 +24,7 @@ The site has been designed with simplicity in mind allowing the main focus to be
     - [Colour](#colour)
     - [Font](#font)
     - [Icons](#icons)
-4. [Game Features](#game-features)
+4. [Main Features](#main-features)
 5. [Technologies](#technologies)
     - [Languages](#languages)
     - [API](#api)
@@ -174,3 +174,5 @@ The font used on this website is [Courier New]('https://docs.microsoft.com/en-us
 I used [favicon.io](https://favicon.io/) to create the favicon icons for the site, and used [Roboto](https://fonts.google.com/specimen/Roboto/) as the font for this as I thought this looked the most traditional for the classic '</>' code symbol. The colours are also featured on the site to stay consistent with styling.
 
 Icons from [Font Awesome](https://fontawesome.com/) we're also used throughout the site, notably the home button on the quiz, the sound controls and the social media links also.
+
+## Main Features
