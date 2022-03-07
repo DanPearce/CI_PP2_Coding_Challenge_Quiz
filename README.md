@@ -405,7 +405,7 @@ The project was tested and viewed on the following browsers with no errors:
 ### User Story Testing 
 
 | **User Story 1** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As a user, I want to be able to test my knowledge in HTML, CSS, and JavaScript with an ineractive quiz. | Load the webpage | The user to be able to play an interactive quiz | Works as intended |
 
 <details><summary>User Story 1 Supporting Screenshots</summary>
@@ -414,7 +414,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 2** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As a user, I want to be able to choose the level of difficulty I want to be tested at. | Click the game difficulty they wish to play | Display a different set of questions based on the clicked response | Works as intended |
 
 <details><summary>User Story 2 Supporting Screenshots</summary>
@@ -422,7 +422,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 3** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As a user, I want to be able to distingish between when I got an answer correct or an answer incorrect. | Click an answer | To be told visually about a correct/incorrect answer through the use of colour | Works as intended |
 
 <details><summary>User Story 3 Supporting Screenshots</summary>
@@ -432,7 +432,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 4** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As a user, I want to know which answer was correct should I get the answer incorrect. | Click an answer | To be shown the correct answer, even if the answer clicked was incorrect | Works as intended |
 
 <details><summary>User Story 4 Supporting Screenshots</summary>
@@ -440,7 +440,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 5** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As a user, I want to be provided with a tally of the score I have recieved. | Play the game as normal | Score to be displayed at the bottom of the quiz, and a tally at the end of the quiz | Works as intended |
 
 <details><summary>User Story 5 Supporting Screenshots</summary>
@@ -449,7 +449,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 6** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As a user, I want to be able to turn the sound off should I want to. | a | b | c |
 
 <details><summary>User Story 6 Supporting Screenshots</summary>
@@ -458,7 +458,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 7** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As a user, I want to provide feedback to the owner, and be informed that said feedback has been sent. | Click the contact us page, fill out the form correctly and click submit. | The form will disappear and the submitted page will take it's place | Works as intended |
 
 <details><summary>User Story 7 Supporting Screenshots</summary>
@@ -468,7 +468,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 8** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As an owner, I want to provide a site that is fully responsive for all users. | Load on various devices | The webpage to be fully responsive, regardless of screen size | Works as intended |
 
 <details><summary>User Story 8 Supporting Screenshots</summary>
@@ -476,7 +476,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 9** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|------------------|-----------------|---------------------|--------------------|
 | As an owner, I want the user to be notified when they have scored correctly/incorrectly. | Click an answer | The body will visually change colour depending on the answer clicked | Works as intended |
 
 <details><summary>User Story 9 Supporting Screenshots</summary>
@@ -485,7 +485,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 10** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|-------------------|-----------------|---------------------|--------------------|
 | As an owner, I want to allow the user to send feedback directly to me about the site. | Click the contact us page, submit the form with no errors | A form to be provided on the site for communication between user and owner | Works as intended |
 
 <details><summary>User Story 10 Supporting Screenshots</summary>
@@ -494,7 +494,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 11** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|-------------------|-----------------|---------------------|--------------------|
 | As an owner, I want the user to be aware of our social media presence at all times. | Navigate to the footer of the page | The social media links are visible at all times on the page | Works as intended |
 
 <details><summary>User Story 11 Supporting Screenshots</summary>
@@ -502,7 +502,7 @@ The project was tested and viewed on the following browsers with no errors:
 </details>
 
 | **User Story 12** | **User Action** | **Desired Outcome** | **Actual Outcome** |
-|----------------|------------------|---------------------|--------------------|
+|-------------------|-----------------|---------------------|--------------------|
 | As an owner, I want the user to easily navigate back to the main quiz page should enter an incorrect URL. | Incorrect URL input | Easily navigate back to the main quiz | Works as intended |
 
 <details><summary>User Story 12 Supporting Screenshots</summary>
