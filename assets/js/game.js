@@ -171,6 +171,8 @@ function showQuestion(question){
  */
 function resetQuestion(){
   removeAnswerClickedClass(document.body);
+  removeAnswerClickedClass(incorrectHeader);
+  removeAnswerClickedClass(incorrectAdvice);
   nextButton.classList.add('hide');
   while (answerButtonsDiv.firstChild){
     answerButtonsDiv.removeChild(answerButtonsDiv.firstChild);
@@ -251,6 +253,9 @@ function answerClicked(e){
     }
     console.log("Quiz Completed!");
     restartButton.classList.remove('hide');
+    removeAnswerClickedClass(document.body);
+    removeAnswerClickedClass(incorrectHeader);
+    removeAnswerClickedClass(incorrectAdvice);
   }
   disableAnswerButtons();
 }
