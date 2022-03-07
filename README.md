@@ -444,7 +444,7 @@ The project was tested and viewed on the following browsers with no errors:
 <img src="docs/user-story-testing/user-story-5.png">
 </details>
 
-| **User Story 6** | **Main Feature** | **Desired Outcome** | **Actual Outcome** |
+| **User Story 6** | **User Action** | **Desired Outcome** | **Actual Outcome** |
 |----------------|------------------|---------------------|--------------------|
 | As a user, I want to be able to turn the sound off should I want to. | a | b | c |
 
