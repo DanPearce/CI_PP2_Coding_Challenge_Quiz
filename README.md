@@ -88,3 +88,31 @@ The site has been designed with simplicity in mind allowing the main focus to be
 11. As an owner, I want to allow the user to send feedback directly to me about the site.
 12. As an owner, I want the user to be aware of our social media presence at all times.
 13. As an owner, I want the user to easily navigate back to the main quiz page should enter an incorrect URL.
+
+## Design 
+
+### Structure
+For the site I wanted to provide the user a simple and easily followable structure. To do this I wanted the main focus to be the quiz and all other forms of navigation to be pushed to the bottom of the page in the footer.
+
+#### Index Page
+The index page is the main page so this is where the quiz is located. The quiz takes up considerable space and is the biggest section on the entire page.
+- The page has a header, welcoming people to the site with detail about the site and quiz.
+- The quiz section is just underneath the header and is fixed into place.
+- The random advice API is located near the bottom of the page to allow the quiz to build space as the JavaScript inserts new code.
+- The footer is fixed into place at the bottom of the page and is visable no matter where you are scrolling through the site.
+
+#### Contact Us Page
+The contact us page is the only other 'main' page on the site and uses the design from the quiz but instead holds a quiz inside.
+- The form is simple and easy to read.
+- Once submitted the JavaScript removes the form and displays the user with a screen that informs them their form has been submitted.
+
+#### 404 Error Page
+This page has been implemented to provide a fall back in case of input error to the URL to ensure the user can remain on the site. Agian keeping the same design structure from the main quiz.
+
+### Wireframes
+
+### Colour
+
+### Font
+
+### Icons
