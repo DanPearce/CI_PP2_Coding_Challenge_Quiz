@@ -180,6 +180,7 @@ The features of this website are all combined to create a fully functioning quiz
 
 ### Header 
 At the top of the webpage the header is prominent and gives the consumer a welcome message and underneath details the use of the current page that they are on. The header is changed depending on which page they are currently on, and this allows the user to understand what each page does.
+- User Story Testing: 1, 10, 12
 <details><summary>Header Index Page</summary>
 <img src="docs/features/feature-header.png">
 </details>
@@ -192,6 +193,7 @@ At the top of the webpage the header is prominent and gives the consumer a welco
 
 ### Username 
 The site implements the use of a username! The user is prompted to enter a username upon the page opening - which is then used to welcome the user on the next page. This username is also displayed at the end of the quiz to inform the user of their score.
+- User Story Testing: 1, 3, 8
 <details><summary>Username Entry</summary>
 <img src="docs/features/feature-username.png">
 </details>
@@ -204,6 +206,7 @@ The site implements the use of a username! The user is prompted to enter a usern
 
 ### Game Modes 
 The game allows the user to decide which level of questions they would like to be challenged with in the quiz. This is available immediately after they enter a username and comes in Easy, Moderate and Hard and the questions will change accordingly.
+- User Story Testing: 2
 <details><summary>Game Modes</summary>
 <img src="docs/features/feature-game-modes.png">
 </details>
@@ -213,12 +216,14 @@ Upon deciding which game mode to play, the user will be brought to the first que
 
 #### Main Game
 The functionality is simple, the user must pick an answer out of four choices.
+- User Story Testing: 1
 <details><summary>Main Game</summary>
 <img src="docs/features/feature-main.png">
 </details>
 
 #### Question Counter
 At the top of the quiz section the quiz counter can be seen providing the user a visual counter on how far through the quiz they are and providing a numerical counter too.
+- User Story Testing: 1
 <details><summary>Question Counter</summary>
 <img src="docs/features/feature-question-counter.png">
 </details>
@@ -227,6 +232,7 @@ At the top of the quiz section the quiz counter can be seen providing the user a
 The user will pick an answer and depending on whether they got it correct or not the game will give several visual clues to support the answer they picked.
 
 The buttons will all change colour including the one they selected; the correct one will be green, and the incorrect ones will be red.
+- User Story Testing: 3, 4, 9 
 <details><summary>Buttons Answer Clicked</summary>
 <img src="docs/features/feature-questions-correct-wrong.png">
 </details>
@@ -243,6 +249,7 @@ The main body changes to red if they chose an incorrect answer.
 
 #### Score 
 The score is featured near the bottom of the quiz container. The correct/incorrect score will increment depending on which answer the user clicks.
+- 4, 5
 <details><summary>Score Area</summary>
 <img src="docs/features/feature-score-area.png">
 </details>
@@ -252,6 +259,7 @@ The score is featured near the bottom of the quiz container. The correct/incorre
 
 #### Audio & Audio Controls
 Throughout the game there are several audio cues that play when buttons are clicked, and answers have been clicked. In order to control the audio, there is an implemented audio symbol that allows the user to turn audio on or off.
+- User Story Testing: 6
 <details><summary>Audio On</summary>
 <img src="docs/features/feature-audio-controls.png">
 </details>
@@ -261,42 +269,49 @@ Throughout the game there are several audio cues that play when buttons are clic
 
 #### End Game
 At the end of the quiz the user is shown their result and is also given a personalised message depending on which result they got.
+- User Story Testing: 5
 <details><summary>End Game</summary>
 <img src="docs/features/feature-end-game.png">
 </details>
 
 ### Random Advice API
 Underneath the quiz the user is displayed a random piece of advice, generated from the random advice API.
+- User Story Testing: 8 
 <details><summary>Random Advice API</summary>
 <img src="docs/features/feature-api.png">
 </details>
 
 ### Footer
-At the bottom of each page the footer is fixed into place to provide the user a form of consistent navigation between the pages - and to showcase the social media links
+At the bottom of each page the footer is fixed into place to provide the user a form of consistent navigation between the pages - and to showcase the social media links.
+- User Story Testing: 11
 <details><summary>Footer</summary>
 <img src="docs/features/feature-footer.png">
 </details> 
 
 ### Contact Us Page 
 The site features a contact us page which uses the same styling as the home page.
+- User Story Testing: 7, 10
 <details><summary>Contact Us Page</summary>
 <img src="docs/features/feature-contact-page.png">
 </details>
 
 #### Form 
 The contact form area allows the user to input their details and a message that will be sent directly to the owner.
+- User Story Testing: 7, 10
 <details><summary>Form Area</summary>
 <img src="docs/features/feature-contact-form.png">
 </details>
 
 #### Form Sent
 Once the contact form has been submitted successfully the user is displayed with a new message which informs them it has been sent successfully.
+- User Story Testing: 7
 <details><summary>Form Sent</summary>
 <img src="docs/features/feature-form-sent.png">
 </details>
 
 ### 404 Error Page
 The 404 error page provides a fall back for the user should they enter an incorrect URL extension to the website. The page features an image with relating text and a button for the user to navigate home.
+- User Story Testing: 12
 <details><summary>404 Error Page</summary>
 <img src="docs/features/feature-404-page.png">
 </details>
