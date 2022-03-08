@@ -51,7 +51,7 @@ const questionsEasy = [
     answers: [
       { text: 'font-style', correct: false },
       { text: 'font-family', correct: true },
-      { text: 'font-varient', correct: false },
+      { text: 'font-variant', correct: false },
       { text: 'font-weight', correct: false }
     ]
   },
@@ -150,7 +150,7 @@ const questionsModerate = [
     ]
   },
   {
-    question: 'Which snippet of CSS is commonly used to center a website horizontally?',
+    question: 'Which snippet of CSS is commonly used to centre a website horizontally?',
     answers: [
       { text: 'margin: 0 auto;', correct: true },
       { text: 'margin: auto 0;', correct: false },
@@ -168,7 +168,7 @@ const questionsModerate = [
     ]
   },
   {
-    question: 'A property is an object oriented equivalent to _____.',
+    question: 'A property is an object-oriented equivalent to _____.',
     answers: [
       { text: 'A function', correct: false },
       { text: 'An if statement', correct: false },
@@ -194,7 +194,7 @@ const questionsHard = [
     answers: [
       { text: 'Return the users position', correct: true },
       { text: 'Get a map of the world', correct: false },
-      { text: 'Return the latitute', correct: false },
+      { text: 'Return the latitude', correct: false },
       { text: 'Return the longitude', correct: false }
     ]
   },

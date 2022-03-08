@@ -181,7 +181,7 @@ function resetQuestion(){
 
 /**
  * Depending on which answer was clicked, this function will display to the user if they got their answer correct or wrong,
- * doing this in various ways notablely calling the audio and setting the background colour.
+ * doing this in various ways notably calling the audio and setting the background colour.
  * This function also checks to see if there are any more questions to be called, if there are displays the nextQuestion button,
  * if not calls the end of the quiz area and displays the users score with a custom end screen.
  * @param {Click event} e 
@@ -261,7 +261,7 @@ function answerClicked(e){
 }
 
 /**
- * Adds the relevent class to each element depending on whether they got the answer correct or not.
+ * Adds the relevant class to each element depending on whether they got the answer correct or not.
  * @param {Element being the element in html (body or button)} element 
  * @param {If the value correct was === to answerClicked} correct 
  */
@@ -284,7 +284,7 @@ function removeAnswerClickedClass(element){
 }
 
 /**
- * Increments the correct-score by 1 if they got the answer correct.
+ * Increments the correct score by 1 if they got the answer correct.
  */
 function incrementScore(){
   let oldScore = parseInt(document.getElementById('correct-score').innerText);
@@ -292,7 +292,7 @@ function incrementScore(){
 }
 
 /**
- * Increments the incorrect-scorre by 1 if they got the answer incorrect.
+ * Increments the incorrect score by 1 if they got the answer incorrect.
  */
 function incrementIncorrectScore(){
   let oldScore = parseInt(document.getElementById('incorrect-score').innerText);

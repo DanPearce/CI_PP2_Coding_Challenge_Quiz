@@ -45,7 +45,7 @@ function audioOff(){
 }
 
 /**
- * Checks wether audioPlaying is true, if true plays the correctAudio, else does not.
+ * Checks whether audioPlaying is true, if true plays the correctAudio, else does not.
  */
 function playCorrectAudio(){
   if (audioPlaying){
@@ -56,7 +56,7 @@ function playCorrectAudio(){
 }
 
 /**
- * Checks wether audioPlaying is true, if true plays the incorrectAudio, else does not.
+ * Checks whether audioPlaying is true, if true plays the incorrectAudio, else does not.
  */
 function playIncorrectAudio(){
   if (audioPlaying){
@@ -67,7 +67,7 @@ function playIncorrectAudio(){
 }
 
 /**
- * Checks wether audioPlaying is true, if true plays the clickAudio, else does not.
+ * Checks whether audioPlaying is true, if true plays the clickAudio, else does not.
  */
 function playClickAudio(){
   if (audioPlaying){

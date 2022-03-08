@@ -3,9 +3,9 @@ const advice = document.getElementById('advice');
 
 //Functions
 /**
- * On screen load, the API is called using fetch, we then take from the data we recieved the json file of which has the 'slip'
- * and 'advice'. We then take this and add this to the innerText of the advice p on index.html. If an error occours this is logged
- * and also displayed to the
+ * On screen load, the API is called using fetch, we then take from the data we received the json file of which has the 'slip'
+ * and 'advice'. We then take this and add this to the innerText of the advice p on index.html. If an error occurs this is logged
+ * and also displayed to the user
  */
 window.onload = function getRandomAdvice(){
   fetch('https://api.adviceslip.com/advice')
