@@ -608,3 +608,20 @@ The project was tested and viewed on the following browsers with no errors:
 <details><summary>WAVE 404 Errors</summary>
 <img src="docs/validation/wave-validation/wave-validator-404-error.png">
 </details>
+
+## Deployment 
+
+### Site Deployment
+This website was deployed using GitHub Pages by using the following steps:
+1. I went to GitHub.com and from the left-hand side I clicked on this repository.
+2. I navigated to the Settings section.
+3. I scrolled down to the Pages section.
+4. In the source drop down I selected main, and (root) and then clicked save.
+5. This proceeds to generate a site using this repo.
+6. I waited 10 minutes to allow the site to load, then after waiting a link appeared that brings us to the live site.
+
+### Advice Slip API
+Information on how to use this API was found here: [AdviceSlip](https://api.adviceslip.com/)
+
+### Email JS
+Information on how to use Email JS through submitting a form was found here: [Email JS - Creating a Contact Form](https://www.emailjs.com/docs/tutorial/creating-contact-form/)
