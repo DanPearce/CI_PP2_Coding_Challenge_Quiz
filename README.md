@@ -450,7 +450,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **User Story 6** | **User Action** | **Desired Outcome** | **Actual Outcome** |
 |------------------|-----------------|---------------------|--------------------|
-| As a user, I want to be able to turn the sound off should I want to. | a | b | c |
+| As a user, I want to be able to turn the sound off should I want to. | Click the audio icon | The audio to turn off/on depending on the user's desire | Works as intended |
 
 <details><summary>User Story 6 Supporting Screenshots</summary>
 <img src="docs/user-story-testing/user-story-testing-6.png">
@@ -507,4 +507,104 @@ The project was tested and viewed on the following browsers with no errors:
 
 <details><summary>User Story 12 Supporting Screenshots</summary>
 <img src="docs/user-story-testing/user-story-testing-12.png">
+</details>
+
+## Bugs and Errors
+
+### HTML Bugs/Errors
+
+| **Index Validator Error** | **Resolution** |
+|---------------------------|----------------|
+| 'Error No p element in scope but a p end tag seen.' | Change the opening and closing tag to a div, as this was intended to be a section |
+
+<details><summary>Index HTML Error</summary>
+<img src="docs/validation/html-validation/html-validator-index-error.png">
+</details>
+
+| **Contact Validator Warning** | **Resolution** |
+|-------------------------------|----------------|
+| 'Warning The type attribute is unnecessary for JavaScript resources.' | Remove the type attribute entierly |
+
+<details><summary>Contact HTML Warning</summary>
+<img src="docs/validation/html-validation/html-validator-contact-error.png">
+</details>
+
+| **404 Validator Error** | **Resolution** |
+|-------------------------|----------------|
+| 'Error An img element must hav an alt attribute, except under certain conditions' | I forgot to add the alt attribute, resolved by adding this attribute(Oops!) |
+
+<details><summary>404 HTML Error</summary>
+<img src="docs/validation/html-validation/html-validator-404-error.png">
+</details>
+
+### JavaScript Bugs/Errors
+
+| **game.js JSHint Warnings** | **Resolution** |
+|-----------------------------|----------------|
+| 'Missing semicolon' on several lines, and 'A leading decimal point can be confused with a dot: ".5".' on three lines | Add the missing semicolons, and change the '.5' to '0.5' |
+
+<details><summary>game.js JS Warnings</summary>
+<img src="docs/validation/js-validation/jshint-validator-game-error.png">
+</details>
+
+| **audio.js JSHint Warnings** | **Resolution** |
+|------------------------------|----------------|
+| 'Missing semicolon' on one line, 'Functions declared within loops referencing outer scoped variable may lead to confusing semantics' and 'Expected an assignment or function call and instead saw an expression' | Add the missing semicolon, and after speaking with my mentor as these are only warnings and not directly affecting the code he said I can ignore these errors |
+
+<details><summary>audio.js JS Warnings</summary>
+<img src="docs/validation/js-validation/jshint-validator-audio-error.png">
+</details>
+
+| **random-advice.js JSHint Warnings** | **Resolution** |
+|--------------------------------------|----------------|
+| 'Missing semicolon' on two lines | Add the missing semicolons |
+
+<details><summary>random-advice.js JS Warnings</summary>
+<img src="docs/validation/js-validation/jshint-validator-random-advice-error.png">
+</details>
+
+| **form.js JSHint Warnings** | **Resolution** |
+|-----------------------------|----------------|
+| 'Missing semicolon' on two lines, and 'Expected an assignment or function call and instead saw an expression' | Add the missing semicolons, fix the placement of the ')' |
+
+<details><summary>form.js JS Warnings</summary>
+<img src="docs/validation/js-validation/jshint-validator-form-error.png">
+</details>
+
+| **questions.js JSHint Warnings** | **Resolution** |
+|----------------------------------|----------------|
+| 'Missing semicolon' on three lines | Add the missing semicolons |
+
+<details><summary>questions.js JS Warnings</summary>
+<img src="docs/validation/js-validation/jshint-validator-questions-error.png">
+</details>
+
+| **Score Counter Bug** | **Resolution** |
+|-----------------------|----------------|
+| While testing, I noticed a bug that allowed the user to continue clicking the answer buttons after they had already selected an answer - this in turn continuted to increment the score area. | I created a disableAnswerButton function which loops through the answer buttons when it is called and sets them to disabled. This is then called after answerCicked has been called. |
+
+
+### Accessibility Bugs/Errors
+| **Index Errors and Contrast Errors** | **Resolution** |
+|--------------------------------------|----------------|
+| Missing label on username input, and several colour contrast errors | Add the label to the form, and revamped the colour scheme to result in no errors. To do this I had to change the colours in CSS and also add extra JavaScript so that the red body background didn't confilct with the orignal darker colour for the text on the main body, I simply added the incorrect class to these elements and changed the color accordingly.  |
+
+<details><summary>WAVE Index Errors</summary>
+<img src="docs/validation/wave-validation/wave-validator-index-error.png">
+</details>
+
+| **Contact Us Page Errors and Contrast Errors** | **Resolution** |
+|------------------------------------------------|----------------|
+| Missing label on portfolio input and colour contrast | Add the label to the form, this was origianlly left blank intentionally as its functionality is purely there to inform the owner which site this was sent from with Email JS, however to solve the error I decided to add the label - same as above revamped the colour scheme. |
+
+<details><summary>WAVE Contact Errors</summary>
+<img src="docs/validation/wave-validation/wave-validator-contact-error.png">
+</details>
+
+| **404 Page Errors and Contrast Errors** | **Resolution** |
+|-----------------------------------------|----------------|
+| Missing alt attribute on img tag, and colour contrast errors | Add the missing alt attribute and revamped the colour scheme. |
+
+<details><summary>WAVE 404 Errors</summary>
+<img src="docs/validation/wave-validation/wave-validator-404-error.png">
 </details>
