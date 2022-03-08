@@ -102,7 +102,7 @@ The index page is the main page, so this is where the quiz is located. The quiz 
 - The footer is fixed into place at the bottom of the page and is visible no matter where you are scrolling through the site.
 
 #### Contact Us Page
-The contact us page is the only other 'main' page on the site and uses the design from the quiz but instead holds a quiz inside.
+The contact us page is the only other 'main' page on the site and uses the design from the quiz but instead holds a form inside.
 - The form is simple and easy to read.
 - Once submitted the JavaScript removes the form and displays the user with a screen that informs them their form has been submitted.
 
@@ -156,7 +156,7 @@ When a correct answer is clicked a green background is used.
 </details>
 
 #### Incorrect Contrast
-When an incorrect answer is clicked a red background is used and the font colour is change to a whiter colour.
+When an incorrect answer is clicked a red background is used and the font colour is changed to a whiter colour.
 <details><summary>Incorrect Contrast</summary>
 <img src="docs/design/colour/incorrect-contrast.png">
 </details>
@@ -250,7 +250,7 @@ The score is featured near the bottom of the quiz container. The correct/incorre
 <img src="docs/features/feature-score.png">
 </details>
 
-#### Audio Controls
+#### Audio & Audio Controls
 Throughout the game there are several audio cues that play when buttons are clicked, and answers have been clicked. In order to control the audio, there is an implemented audio symbol that allows the user to turn audio on or off.
 <details><summary>Audio On</summary>
 <img src="docs/features/feature-audio-controls.png">
@@ -581,7 +581,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **Score Counter Bug** | **Resolution** |
 |-----------------------|----------------|
-| While testing, I noticed a bug that allowed the user to continue clicking the answer buttons after they had already selected an answer - this in turn continued to increment the score area. | I created a disableAnswerButton function which loops through the answer buttons when it is called and sets them to disabled. This is then called after answerCicked has been called. |
+| While testing, I noticed a bug that allowed the user to continue clicking the answer buttons after they had already selected an answer - this in turn continued to increment the score area. | I created a disableAnswerButton function which loops through the answer buttons when it is called and sets them to disabled. This is then called after answerClicked has been called. |
 
 
 ### Accessibility Bugs/Errors
