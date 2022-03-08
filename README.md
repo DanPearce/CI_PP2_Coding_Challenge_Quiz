@@ -625,3 +625,47 @@ Information on how to use this API was found here: [AdviceSlip](https://api.advi
 
 ### Email JS
 Information on how to use Email JS through submitting a form was found here: [Email JS - Creating a Contact Form](https://www.emailjs.com/docs/tutorial/creating-contact-form/)
+
+## Credits
+ 
+### Images
+- [email_sent.png](/assets/images/email_sent.png) by [Sara](https://www.stockvault.net/user/profile/177383) on [StockVault](https://www.stockvault.net/) - [Image on external site](https://www.stockvault.net/photo/254036/youve-received-an-email)
+- [404.jpg](/assets/images/404.jpg) by [RawPixel](https://www.rawpixel.com/) - [Image on external site](https://www.rawpixel.com/image/427199/free-photo-image-stress-angry-emotion)
+
+### Audio
+- [click.wav](/assets/audio/click.wav) by [annabloom](https://freesound.org/people/annabloom/) on [freesound.org](https://freesound.org/) - [Audio on external site](https://freesound.org/people/annabloom/sounds/219069/)
+- [correct.mp3](/assets/audio/correct.mp3) by [LittleRainySeasons](https://freesound.org/people/LittleRainySeasons/) on [freesound.org](https://freesound.org/) - [Audio on external site](https://freesound.org/people/LittleRainySeasons/sounds/335908/)
+- [incorrect.wav](/assets/audio/incorrect.wav) by [GabrielAraujo](https://freesound.org/people/GabrielAraujo/) on [freesound.org](https://freesound.org/) - [Audio on external site](https://freesound.org/people/GabrielAraujo/sounds/242503/)
+
+### Quiz Contents
+The contents for all the quizes was sourced from [W3CodingSchools](https://www.w3codingschools.com/)
+Please find all their quiz pages here:
+- [Beginner HTML](https://www.w3codingschools.com/html-beginner-quiz/)
+- [Beginner CSS](https://www.w3codingschools.com/css-beginner-quiz/)
+- [Beginner JavaScript](https://www.w3codingschools.com/javascript-beginner-quiz/)
+- [Moderate HTML](https://www.w3codingschools.com/html-moderate-quiz/)
+- [Moderate CSS](https://www.w3codingschools.com/css-moderate-quiz/)
+- [Moderate JavaScript](https://www.w3codingschools.com/javascript-moderate-quiz/)
+- [Expert HTML](https://www.w3codingschools.com/html-expert-quiz/)
+- [Expert CSS](https://www.w3codingschools.com/css-expert-quiz/)
+- [Expert JavaScript](https://www.w3codingschools.com/javascript-expert-quiz/)
+
+### Code
+- [HTML and CSS](https://www.htmlandcssbook.com/) by Jon Duckett - Used to broaden my knowledge in HTML and CSS
+- [JavaScript & JQuery](https://www.whsmith.co.uk/products/javascript-and-jquery-interactive-frontend-web-development/jon-duckett/paperback/9781118531648.html) by Jon Duckett - Used to broaden my knowledge in JavaScript
+- [W3Schools - CSS Colors HSL](https://www.w3schools.com/css/css_colors_hsl.asp) - Used to broaden my knowldge in CSS Colours and HSL
+- [Mozilla - CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Used to broaden my knowledge in using JavaScript properties
+- [Smashing Magazine - Using HSL Colors in CSS](https://www.smashingmagazine.com/2021/07/hsl-colors-css/) - Used to broaden my knowledge in how to use HSL Colours in CSS
+- [W3Schools - Array sort()](https://www.w3schools.com/jsref/jsref_sort.asp) - Used to help me understand the sort() function
+- [W3Schools - Arrow Function](https://www.w3schools.com/js/js_arrow_function.asp) - Used to help me further understand the arrow function
+- [W3Schools - CSS Tooltip](https://www.w3schools.com/css/css_tooltip.asp) - Used to help me build a Tooltip using CSS
+- [Mozilla - Custom Validity](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/setCustomValidity) - Custom Validity taken from this webpage
+- [Stack Overflow - Disable Buttons](https://stackoverflow.com/questions/17390700/disabling-multiple-html-buttons) - Used to help me fix my errors with buttons
+- [AdviceSlip](https://api.adviceslip.com/) - Used to help me write the code for this API.
+- [Email JS - Creating a contact form](https://www.emailjs.com/docs/tutorial/creating-contact-form/) - Used to help me write the code for form.js.
+
+## Acknowledgments
+I would like to thank:
+- Mo Shami, my mentor throughout the project, who has proved me valuable information.
+- My partner, Harry, who has continued to be very supporting throughout this process and clealy cares so much about my success <3 You're great.
+- Anybody who has taken the time to ask how my coding journey is going :).
