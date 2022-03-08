@@ -9,7 +9,7 @@ The Coder's Coding Challenge Quiz App/Website is designed to encourage people to
 
 The site has been designed with simplicity in mind allowing the focus to be the game, with other features pushed to the bottom of the page.
 
-##Contents
+## Contents
 1. [Site Goals and Consumer Experience](#site-goals-and-consumer-experience)
     - [Consumer Goals](#consumer-goals)
     - [Website Owner Goals](#website-owner-goals)
