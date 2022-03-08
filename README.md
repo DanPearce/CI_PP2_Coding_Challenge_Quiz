@@ -1,13 +1,13 @@
-# Coder's Coding Challenege! - Test your knowledge in HTML, CSS and JavaScript!
+# Coder's Coding Challenge! - Test your knowledge in HTML, CSS and JavaScript!
 Developed by, [Dan Pearce](https://danpearce.software/)
 
 [View the live site](https://danpearce.github.io/CI_PP2_Coding_Challenge_Quiz/index.html)
 
 ![Responsive](docs/responsive/responsive.png)
 
-The Coder's Coding Challenge Quiz App/Website is designed to encourage people to test their skills in HTML, CSS and JavaScript! It's inteneded to be a fun interactive site that allows the user to choose a difficulty and give them feedback on how they are scoring throughout the quiz.
+The Coder's Coding Challenge Quiz App/Website is designed to encourage people to test their skills in HTML, CSS and JavaScript! It's intended to be a fun interactive site that allows the user to choose a difficulty and give them feedback on how they are scoring throughout the quiz.
 
-The site has been designed with simplicity in mind allowing the main focus to be the game, with other features pushed to the bottom of the page.
+The site has been designed with simplicity in mind allowing the focus to be the game, with other features pushed to the bottom of the page.
 
 ##Contents
 1. [Site Goals and Consumer Experience](#site-goals-and-consumer-experience)
@@ -56,7 +56,7 @@ The site has been designed with simplicity in mind allowing the main focus to be
 ### Website Owner Goals
 - Provide the consumer feedback on how they scored throughout and at the end of the game.
 - Provide an experience that is fully responsive.
-- Provide a point of contact so that the consumer can contact about bugs or future devlopments.
+- Provide a point of contact so that the consumer can contact about bugs or future developments.
 
 ### Target Audience
 - Beginner/Moderate students or casual coders who wish to test their skills in these languages.
@@ -74,11 +74,11 @@ The site has been designed with simplicity in mind allowing the main focus to be
 ## User Stories
 
 ### User
-1. As a user, I want to be able to test my knowledge in HTML, CSS, and JavaScript with an ineractive quiz.
+1. As a user, I want to be able to test my knowledge in HTML, CSS, and JavaScript with an interactive quiz.
 2. As a user, I want to be able to choose the level of difficulty I want to be tested at.
-3. As a user, I want to be able to distingish between when I got an answer correct or an answer incorrect.
+3. As a user, I want to be able to distinguish between when I got an answer correct or an answer incorrect.
 4. As a user, I want to know which answer was correct should I get the answer incorrect.
-5. As a user, I want to be provided with a tally of the score I have recieved.
+5. As a user, I want to be provided with a tally of the score I have received.
 6. As a user, I want to be able to turn the sound off should I want to.
 7. As a user, I want to provide feedback to the owner, and be informed that said feedback has been sent.
 
@@ -86,20 +86,20 @@ The site has been designed with simplicity in mind allowing the main focus to be
 8. As an owner, I want to provide a site that is fully responsive for all users.
 9. As an owner, I want the user to be notified when they have scored correctly/incorrectly. 
 10. As an owner, I want to allow the user to send feedback directly to me about the site.
-11. As an owner, I want the user to be aware of our social media presence at all times.
+11. As an owner, I want the user to be always aware of our social media presence.
 12. As an owner, I want the user to easily navigate back to the main quiz page should enter an incorrect URL.
 
 ## Design 
 
 ### Structure
-For the site I wanted to provide the user a simple and easily followable structure. To do this I wanted the main focus to be the quiz and all other forms of navigation to be pushed to the bottom of the page in the footer.
+For the site I wanted to provide the user a simple and easily followable structure. To do this I wanted the focus to be the quiz and all other forms of navigation to be pushed to the bottom of the page in the footer.
 
 #### Index Page
-The index page is the main page so this is where the quiz is located. The quiz takes up considerable space and is the biggest section on the entire page.
+The index page is the main page, so this is where the quiz is located. The quiz takes up considerable space and is the biggest section on the entire page.
 - The page has a header, welcoming people to the site with detail about the site and quiz.
 - The quiz section is just underneath the header and is fixed into place.
 - The random advice API is located near the bottom of the page to allow the quiz to build space as the JavaScript inserts new code.
-- The footer is fixed into place at the bottom of the page and is visable no matter where you are scrolling through the site.
+- The footer is fixed into place at the bottom of the page and is visible no matter where you are scrolling through the site.
 
 #### Contact Us Page
 The contact us page is the only other 'main' page on the site and uses the design from the quiz but instead holds a quiz inside.
@@ -107,7 +107,7 @@ The contact us page is the only other 'main' page on the site and uses the desig
 - Once submitted the JavaScript removes the form and displays the user with a screen that informs them their form has been submitted.
 
 #### 404 Error Page
-This page has been implemented to provide a fall back in case of input error to the URL to ensure the user can remain on the site. Agian keeping the same design structure from the main quiz.
+This page has been implemented to provide a fall back in case of input error to the URL to ensure the user can remain on the site. Again keeping the same design structure from the main quiz.
 
 ### Wireframes
 <details><summary>Index Page</summary>
@@ -141,7 +141,7 @@ The colouring of the site has been kept simple to make it clear to user's when t
 <img src="docs/design/colour/colour.png">
 </details>
 
-All of the pages were tested in terms of contrast using [WebAIM](https://webaim.org/)
+All the pages were tested in terms of contrast using [WebAIM](https://webaim.org/)
 
 #### Normal Contrast
 The normal colour for the site is a turquoise colour and this is to distinguish to the user that this is neither a correct or incorrect page.
@@ -168,7 +168,7 @@ When the form has been sent, the background colour is changed to match the image
 </details>
 
 ### Font
-The font used on this website is [Courier New]('https://docs.microsoft.com/en-us/typography/font-list/courier-new) and this was chosen specifically for it's retro feel for computers - I thought this was particularly relevent as the quiz is related to coding!
+The font used on this website is [Courier New]('https://docs.microsoft.com/en-us/typography/font-list/courier-new) and this was chosen specifically for it's retro feel for computers - I thought this was particularly relevant as the quiz is related to coding!
 
 ### Icons
 I used [favicon.io](https://favicon.io/) to create the favicon icons for the site, and used [Roboto](https://fonts.google.com/specimen/Roboto/) as the font for this as I thought this looked the most traditional for the classic '</>' code symbol. The colours are also featured on the site to stay consistent with styling.
@@ -179,7 +179,7 @@ Icons from [Font Awesome](https://fontawesome.com/) we're also used throughout t
 The features of this website are all combined to create a fully functioning quiz with added sounds and colours to create an interactive experience for all. 
 
 ### Header 
-At the top of the webpage the header is prominent and gives the consumer a welcome message and underneath details the use of the current page that they are on. The header is changed depending on which page they are currently on and this allows the user to understand what each page does.
+At the top of the webpage the header is prominent and gives the consumer a welcome message and underneath details the use of the current page that they are on. The header is changed depending on which page they are currently on, and this allows the user to understand what each page does.
 <details><summary>Header Index Page</summary>
 <img src="docs/features/feature-header.png">
 </details>
@@ -203,7 +203,7 @@ The site implements the use of a username! The user is prompted to enter a usern
 </details>
 
 ### Game Modes 
-The game allows the user to decide which level of questions they would like to be challenged with in the quiz. This is avaliable immediatly after they enter a username and comes in Easy, Moderate and Hard and the questions will change accordingly.
+The game allows the user to decide which level of questions they would like to be challenged with in the quiz. This is available immediately after they enter a username and comes in Easy, Moderate and Hard and the questions will change accordingly.
 <details><summary>Game Modes</summary>
 <img src="docs/features/feature-game-modes.png">
 </details>
@@ -212,31 +212,31 @@ The game allows the user to decide which level of questions they would like to b
 Upon deciding which game mode to play, the user will be brought to the first question which is shuffled randomly to make the game slightly harder if replaying. 
 
 #### Main Game
-The functionality is simple, the user has to pick an answer out of four choices.
+The functionality is simple, the user must pick an answer out of four choices.
 <details><summary>Main Game</summary>
 <img src="docs/features/feature-main.png">
 </details>
 
 #### Question Counter
-At the top of the quiz section the quiz counter can be seen providing the user a visual counter on how far through the quiz they are and also providing a numerical counter too.
+At the top of the quiz section the quiz counter can be seen providing the user a visual counter on how far through the quiz they are and providing a numerical counter too.
 <details><summary>Question Counter</summary>
 <img src="docs/features/feature-question-counter.png">
 </details>
 
 #### Correct and Incorrect Answers
-The user will pick an answer and depedning on whether they got it correct or not the game will give several visual clues to support the answer they picked.
+The user will pick an answer and depending on whether they got it correct or not the game will give several visual clues to support the answer they picked.
 
-The buttons will all change colour including the one they selected; the correct one will be green and the incorrect ones will be red.
+The buttons will all change colour including the one they selected; the correct one will be green, and the incorrect ones will be red.
 <details><summary>Buttons Answer Clicked</summary>
 <img src="docs/features/feature-questions-correct-wrong.png">
 </details>
 
-The main body will change to green if they chose the correct answer.
+The main body changes to green if they chose the correct answer.
 <details><summary>Correct Body</summary>
 <img src="docs/features/feature-correct-body.png">
 </details>
 
-The main body will change to red if they chose an incorrect answer.
+The main body changes to red if they chose an incorrect answer.
 <details><summary>Incorrect Body</summary>
 <img src="docs/features/feature-incorrect-body.png">
 </details>
@@ -251,7 +251,7 @@ The score is featured near the bottom of the quiz container. The correct/incorre
 </details>
 
 #### Audio Controls
-Throughout the game there are several audio cues that play when buttons are clicked and answers have been clicked. In order to control the audio there is an implemented audio symbol that allows the user to turn audio on or off.
+Throughout the game there are several audio cues that play when buttons are clicked, and answers have been clicked. In order to control the audio, there is an implemented audio symbol that allows the user to turn audio on or off.
 <details><summary>Audio On</summary>
 <img src="docs/features/feature-audio-controls.png">
 </details>
@@ -266,7 +266,7 @@ At the end of the quiz the user is shown their result and is also given a person
 </details>
 
 ### Random Advice API
-Underneath the quiz the user is dispalyed a random peice of advice, generated from the random advice API.
+Underneath the quiz the user is displayed a random piece of advice, generated from the random advice API.
 <details><summary>Random Advice API</summary>
 <img src="docs/features/feature-api.png">
 </details>
@@ -387,13 +387,13 @@ The [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was use
 ### Device and Browser Compatibility 
 
 #### Device Testing
-This website and game was tested on numerous devices all of which result with full functionality and no visual issues the devices I tested on were as followed:
+This website and game has been tested on numerous devices all of which result with full functionality and no visual issues the devices I tested on were as followed:
 - MacBook Pro 16-inch 
 - Desktop PC with 32-inch screen.
 - iPhone 12 Pro
 - iPad Pro 11inch
 - Microsoft Surface Pro 3
-- This site was also tested on all defeault Google Chrome Developer Tool screen sizes.
+- This site was also tested on all default Google Chrome Developer Tool screen sizes.
 
 #### Browser Compatibility
 The project was tested and viewed on the following browsers with no errors:
@@ -406,7 +406,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **User Story 1** | **User Action** | **Desired Outcome** | **Actual Outcome** |
 |------------------|-----------------|---------------------|--------------------|
-| As a user, I want to be able to test my knowledge in HTML, CSS, and JavaScript with an ineractive quiz. | Load the webpage | The user to be able to play an interactive quiz | Works as intended |
+| As a user, I want to be able to test my knowledge in HTML, CSS, and JavaScript with an interactive quiz. | Load the webpage | The user to be able to play an interactive quiz | Works as intended |
 
 <details><summary>User Story 1 Supporting Screenshots</summary>
 <img src="docs/user-story-testing/user-story-testing-1.png">
@@ -423,7 +423,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **User Story 3** | **User Action** | **Desired Outcome** | **Actual Outcome** |
 |------------------|-----------------|---------------------|--------------------|
-| As a user, I want to be able to distingish between when I got an answer correct or an answer incorrect. | Click an answer | To be told visually about a correct/incorrect answer through the use of colour | Works as intended |
+| As a user, I want to be able to distinguish between when I got an answer correct or an answer incorrect. | Click an answer | To be told visually about a correct/incorrect answer through the use of colour | Works as intended |
 
 <details><summary>User Story 3 Supporting Screenshots</summary>
 <img src="docs/user-story-testing/user-story-testing-3.png">
@@ -441,7 +441,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **User Story 5** | **User Action** | **Desired Outcome** | **Actual Outcome** |
 |------------------|-----------------|---------------------|--------------------|
-| As a user, I want to be provided with a tally of the score I have recieved. | Play the game as normal | Score to be displayed at the bottom of the quiz, and a tally at the end of the quiz | Works as intended |
+| As a user, I want to be provided with a tally of the score I have receieved. | Play the game as normal | Score to be displayed at the bottom of the quiz, and a tally at the end of the quiz | Works as intended |
 
 <details><summary>User Story 5 Supporting Screenshots</summary>
 <img src="docs/user-story-testing/user-story-testing-5.png">
@@ -459,7 +459,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **User Story 7** | **User Action** | **Desired Outcome** | **Actual Outcome** |
 |------------------|-----------------|---------------------|--------------------|
-| As a user, I want to provide feedback to the owner, and be informed that said feedback has been sent. | Click the contact us page, fill out the form correctly and click submit. | The form will disappear and the submitted page will take it's place | Works as intended |
+| As a user, I want to provide feedback to the owner, and be informed that said feedback has been sent. | Click the contact us page, fill out the form correctly and click submit. | The form will disappear, and the submitted page will take its place | Works as intended |
 
 <details><summary>User Story 7 Supporting Screenshots</summary>
 <img src="docs/user-story-testing/user-story-testing-7.png">
@@ -495,7 +495,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **User Story 11** | **User Action** | **Desired Outcome** | **Actual Outcome** |
 |-------------------|-----------------|---------------------|--------------------|
-| As an owner, I want the user to be aware of our social media presence at all times. | Navigate to the footer of the page | The social media links are visible at all times on the page | Works as intended |
+| As an owner, I want the user to be always aware of our social media presence. | Navigate to the footer of the page | The social media links are always visible on the page | Works as intended |
 
 <details><summary>User Story 11 Supporting Screenshots</summary>
 <img src="docs/user-story-testing/user-story-testing-11.png">
@@ -523,7 +523,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **Contact Validator Warning** | **Resolution** |
 |-------------------------------|----------------|
-| 'Warning The type attribute is unnecessary for JavaScript resources.' | Remove the type attribute entierly |
+| 'Warning The type attribute is unnecessary for JavaScript resources.' | Remove the type attribute entirely |
 
 <details><summary>Contact HTML Warning</summary>
 <img src="docs/validation/html-validation/html-validator-contact-error.png">
@@ -531,7 +531,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **404 Validator Error** | **Resolution** |
 |-------------------------|----------------|
-| 'Error An img element must hav an alt attribute, except under certain conditions' | I forgot to add the alt attribute, resolved by adding this attribute(Oops!) |
+| 'Error An img element must have an alt attribute, except under certain conditions' | I forgot to add the alt attribute, resolved by adding this attribute(Oops!) |
 
 <details><summary>404 HTML Error</summary>
 <img src="docs/validation/html-validation/html-validator-404-error.png">
@@ -549,7 +549,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **audio.js JSHint Warnings** | **Resolution** |
 |------------------------------|----------------|
-| 'Missing semicolon' on one line, 'Functions declared within loops referencing outer scoped variable may lead to confusing semantics' and 'Expected an assignment or function call and instead saw an expression' | Add the missing semicolon, and after speaking with my mentor as these are only warnings and not directly affecting the code he said I can ignore these errors |
+| 'Missing semicolon' on one line, 'Functions declared within loops referencing outer scoped variable may lead to confusing semantics' and 'Expected an assignment or function call and instead saw an expression' | Add the missing semicolon, and after speaking with my mentor as these are only warnings and not directly affecting the code, he said I can ignore these errors |
 
 <details><summary>audio.js JS Warnings</summary>
 <img src="docs/validation/js-validation/jshint-validator-audio-error.png">
@@ -581,13 +581,13 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **Score Counter Bug** | **Resolution** |
 |-----------------------|----------------|
-| While testing, I noticed a bug that allowed the user to continue clicking the answer buttons after they had already selected an answer - this in turn continuted to increment the score area. | I created a disableAnswerButton function which loops through the answer buttons when it is called and sets them to disabled. This is then called after answerCicked has been called. |
+| While testing, I noticed a bug that allowed the user to continue clicking the answer buttons after they had already selected an answer - this in turn continued to increment the score area. | I created a disableAnswerButton function which loops through the answer buttons when it is called and sets them to disabled. This is then called after answerCicked has been called. |
 
 
 ### Accessibility Bugs/Errors
 | **Index Errors and Contrast Errors** | **Resolution** |
 |--------------------------------------|----------------|
-| Missing label on username input, and several colour contrast errors | Add the label to the form, and revamped the colour scheme to result in no errors. To do this I had to change the colours in CSS and also add extra JavaScript so that the red body background didn't confilct with the orignal darker colour for the text on the main body, I simply added the incorrect class to these elements and changed the color accordingly.  |
+| Missing label on username input, and several colour contrast errors | Add the label to the form, and revamped the colour scheme to result in no errors. To do this I had to change the colours in CSS and add extra JavaScript so that the red body background didn't conflict with the original darker colour for the text on the main body, I simply added the incorrect class to these elements and changed the colour accordingly.  |
 
 <details><summary>WAVE Index Errors</summary>
 <img src="docs/validation/wave-validation/wave-validator-index-error.png">
@@ -595,7 +595,7 @@ The project was tested and viewed on the following browsers with no errors:
 
 | **Contact Us Page Errors and Contrast Errors** | **Resolution** |
 |------------------------------------------------|----------------|
-| Missing label on portfolio input and colour contrast | Add the label to the form, this was origianlly left blank intentionally as its functionality is purely there to inform the owner which site this was sent from with Email JS, however to solve the error I decided to add the label - same as above revamped the colour scheme. |
+| Missing label on portfolio input and colour contrast | Add the label to the form, this was originally left blank intentionally as its functionality is purely there to inform the owner which site this was sent from with Email JS, however to solve the error I decided to add the label - same as above revamped the colour scheme. |
 
 <details><summary>WAVE Contact Errors</summary>
 <img src="docs/validation/wave-validation/wave-validator-contact-error.png">
@@ -638,7 +638,7 @@ Information on how to use Email JS through submitting a form was found here: [Em
 - [incorrect.wav](/assets/audio/incorrect.wav) by [GabrielAraujo](https://freesound.org/people/GabrielAraujo/) on [freesound.org](https://freesound.org/) - [Audio on external site](https://freesound.org/people/GabrielAraujo/sounds/242503/)
 
 ### Quiz Contents
-The contents for all the quizes was sourced from [W3CodingSchools](https://www.w3codingschools.com/)
+The contents for all the quizzes was sourced from [W3CodingSchools](https://www.w3codingschools.com/)
 Please find all their quiz pages here:
 - [Beginner HTML](https://www.w3codingschools.com/html-beginner-quiz/)
 - [Beginner CSS](https://www.w3codingschools.com/css-beginner-quiz/)
@@ -653,7 +653,7 @@ Please find all their quiz pages here:
 ### Code
 - [HTML and CSS](https://www.htmlandcssbook.com/) by Jon Duckett - Used to broaden my knowledge in HTML and CSS
 - [JavaScript & JQuery](https://www.whsmith.co.uk/products/javascript-and-jquery-interactive-frontend-web-development/jon-duckett/paperback/9781118531648.html) by Jon Duckett - Used to broaden my knowledge in JavaScript
-- [W3Schools - CSS Colors HSL](https://www.w3schools.com/css/css_colors_hsl.asp) - Used to broaden my knowldge in CSS Colours and HSL
+- [W3Schools - CSS Colors HSL](https://www.w3schools.com/css/css_colors_hsl.asp) - Used to broaden my knowledge in CSS Colours and HSL
 - [Mozilla - CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Used to broaden my knowledge in using JavaScript properties
 - [Smashing Magazine - Using HSL Colors in CSS](https://www.smashingmagazine.com/2021/07/hsl-colors-css/) - Used to broaden my knowledge in how to use HSL Colours in CSS
 - [W3Schools - Array sort()](https://www.w3schools.com/jsref/jsref_sort.asp) - Used to help me understand the sort() function
@@ -667,5 +667,5 @@ Please find all their quiz pages here:
 ## Acknowledgments
 I would like to thank:
 - Mo Shami, my mentor throughout the project, who has proved me valuable information.
-- My partner, Harry, who has continued to be very supporting throughout this process and clealy cares so much about my success <3 You're great.
+- My partner, Harry, who has continued to be very supporting throughout this process and clearly cares so much about my success <3 You're great.
 - Anybody who has taken the time to ask how my coding journey is going :).
