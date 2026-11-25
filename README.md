@@ -1,5 +1,5 @@
 # Coder's Coding Challenge! - Test your knowledge in HTML, CSS and JavaScript!
-Developed by, [Dan Pearce](https://danpearce.software/)
+Developed by, [Dan Pearce](https://danielpearce.co.uk/)
 
 [View the live site](https://danpearce.github.io/CI_PP2_Coding_Challenge_Quiz/index.html)
 
