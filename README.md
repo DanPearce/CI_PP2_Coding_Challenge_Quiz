@@ -624,7 +624,18 @@ The project was tested and viewed on the following browsers with no errors:
 <img src="docs/validation/wave-validation/wave-validator-404-error.png">
 </details>
 
-## Deployment 
+## Deployment
+
+### Current hosting and automatic deployment (since November 2026)
+
+The live site is at <https://codingquiz.danielpearce.co.uk/>. It runs in a Docker container on a self-hosted server behind HTTPS.
+
+- Every pull request is checked by GitHub Actions (`.github/workflows/ci-deploy.yml`): every page has a title and every local link, image and script it uses exists.
+- Every change merged to `main` that passes the checks is **deployed automatically**. GitHub connects to the server over SSH with a key that can deploy only this project and only the latest commit of `main`; the server builds the new version, waits for the site to answer, and puts the previous version back (and emails an alert) if anything fails.
+- `main` is protected: no force-pushes or deleting the branch, and the `test` check must pass before changes are merged.
+- To deploy a change: merge a pull request into `main`. To redeploy, re-run the workflow in the repository's Actions tab.
+
+The steps below describe how the project was first deployed and are kept as a record of the original deployment.
 
 ### Site Deployment
 This website was deployed using GitHub Pages by using the following steps:
