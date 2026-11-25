@@ -445,3 +445,7 @@ textarea {
     font-size: 0.5rem;
   }
 }
+/*Portfolio header: the page heading starts below the fixed portfolio bar*/
+.dp-has-bar #header {
+  top: 64px;
+}
