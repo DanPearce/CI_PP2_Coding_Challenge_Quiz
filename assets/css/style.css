@@ -447,5 +447,5 @@ textarea {
 }
 /*Portfolio header: the page heading starts below the fixed portfolio bar*/
 .dp-has-bar #header {
-  top: 64px;
+  top: var(--dp-header-height);
 }
